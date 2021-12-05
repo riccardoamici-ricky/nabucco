@@ -1,0 +1,127 @@
+{
+
+    "menuData": [
+        { "id": 1, "title": "Prenota", "link": "/contatti" },
+        { "id": 2, "title": "Menù", "link": "/menu" },
+        { "id": 3, "title": "La filosofia", "link": "/filosofia" },
+        { "id": 4, "title": "Il ristorante", "link": "/ristorante-nabucco" },
+        { "id": 5, "title": "Regala una cena", "link": "/executive" }
+
+    ],
+
+    "sliderData": [
+        {
+            "id": 0,
+            "title": "Materie prime di qualità",
+            "subtitle": "Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa.",
+            "path": "/contatti",
+            "label": "Prenota",
+            "alt": "Nabucco"
+        },
+        {
+            "id": 1,
+            "title": "Lasciati sorprendere da Carlo Gentili",
+            "subtitle": "Nella cucina si muovono le mani di un team che collabora insieme, uniti dalla passione di Carlo.",
+            "path": "/ristorante-nabucco",
+            "label": "Il nostro metodo",
+            "alt": "Nabucco"
+        },
+        {
+            "id": 2,
+            "title": "Nabucco è la sua selezione di carne",
+            "subtitle": "Non proponiamo primi, toglierebbero il giusto spazio per assaporarla.",
+            "path": "/menu",
+            "label": "Scopri il menù",
+            "alt": "Nabucco"
+        },
+        {
+            "id": 3,
+            "title": "Dal fuoco al piatto",
+            "subtitle": "Scansiona il QR code per conoscere produttori e provenienza, ti presentiamo la carne che hai sul piatto.",
+            "path": "/filosofia",
+            "label": "Il nostro metodo",
+            "alt": "Nabucco"
+        }
+    ],
+
+    "firstInfoData": [
+        {
+            "id": 0,
+            "title": "Scopri la storia di Nabucco, nel cuore di Roma",
+            "subtitle": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità.",
+            "second_subtitle": "Dal 1997 ad oggi in continua evoluzione, rimanendo però saldo alla qualità e ai valori che da sempre lo hanno contraddistinto.",
+            "path": "/ristorante-nabucco",
+            "label": "Le nostre radici"
+        }
+    ],
+    
+    "secondInfoData": [
+        {
+            "id": 0,
+            "title": "\"Dopo una vita accanto a Borghese, torno a casa e vi presento la mia cucina\"",
+            "subtitle": "A parlare è Carlo Gentili, ex Executive Chef al \"Lusso della semplicità\" a Milano che ora si imbarca in un progetto tutto suo: Nabucco.",
+            "second_subtitle": "Culture, ingredienti e sapori si mescolano e si mettono in discussione, dando vita a qualcosa di unico e gustoso.",
+            "path": "/ristorante-nabucco",
+            "label": "Scopri di più"
+        }
+    ],
+
+    "giftADinner": [
+        {
+            "id": 0,
+            "title": "Riserva lo spazio per il tuo evento",
+            "subtitle": "Lascia che Nabucco sia il ristorante per la tua cena aziendale o per il tuo giorno speciale.",
+            "path": "/executive",
+            "label": "Voglio sapere di più"
+        }
+    ],
+
+    "thirdInfoData": [
+        {
+            "id": 0,
+            "title": "Un buon piatto si identifica nelle materie prime che si utilizzano per realizzarlo.",
+            "subtitle": "Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile.",
+            "second_subtitle": "Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
+            "path": "/filosofia",
+            "label": "Impara a conoscerci"
+        }
+    ],
+
+    "aboutPage": [
+        {
+            "id": 0,
+            "heading": "Materie prime di qualità e atmosfera magica. Questo è il binomio sul quale abbiamo costruito lo spirito del nostro ristorante.",
+            "paragraphOne": "Un piatto buono si identifica nelle materie prime che si utilizzano per realizzarlo. Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile. Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
+            "paragraphTwo": "Il progetto è studiato nei minimi dettagli, Abbiamo studiato un menù che esalti la tradizione italiana, senza rimanerne ancorati, esplorando e giocando con l’innovazione, sfidando le regole. Crediamo che, in questo periodo, non sia necessario mangiare più carne, ma mangiarla meglio, consapevolmente. Puntiamo per questo a un cliente consapevole, che possa leggere e tracciare quello che arriva al suo tavolo, sul suo piatto. Tramite un QR code aggiornato costantemente, la qualità diventa palpabile, si tocca con mano, si legge con gli occhi, ancora prima che col palato.",
+            "altImg": "Ristorante carne roma Nabucco"
+        }
+    ],
+
+
+    "restaurantPage": [
+        {
+            "id": 0,
+            "heading": "Scopri la storia di Nabucco, nel cuore di Roma.",
+            "paragraphOne": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità. Quella che oggi ospita il nostro ristorante fu una fabbrica di ceramiche artigianali, un laboratorio famoso in tutto il mondo che prendeva il nome di Tanagra, in onore della città greca dove furono ritrovate le prime ceramiche colorate, le Tanagrine, appunto. Ed è proprio il nome Tanagra ad essere stato ripreso dal nostro ristorante, che nel 1997 ha aperto per la prima volta le sue porte e che per 24 anni ha accolto e deliziato i palati di molti. \n \n Oggi Tanagra cambia nome e diventa Nabucco, pronto più che mai a rinnovarsi e ad aprire nuove strade, concentrandosi su un menù di carne, moderno e contemporaneo, senza rinunciare alla qualità e i valori che lo hanno sempre contrassegnato.",
+            "paragraphTwo": "Non siamo matricole del mondo della ristorazione. Non siamo novellini che si affacciano incucina emozionati per la loro prima esperienza. Non pensiamo alle serate spaventati, inconsapevoli di cosa ci aspetta. Siamo chi il ristorante lo ha fatto, il territorio lo conosce da anni, sulla cucina ha già le idee chiare. Siamo qui per mostrarvele. \n \n Nella cucina, si muovono le mani di un team che collabora insieme, uniti dalla passione e la cura per il buon cibo. Bollono le stesse idee e la stessa arte culinaria, concentrata sull’artigianalità, sulla stagionalità, sul gusto.",
+            "altSecondImg": "Lo chef",
+            "secondHeading": "Carlo Gentili, lo chef",
+            "secondParagraphOne": "Dopo 20 anni di esperienza accanto ad Alessandro Borghese, è tempo di tornare a casa, qui dove tutto, per me, è cominciato. La mia è stata una gavetta tutta romana, il territorio l’ho esplorato, conosciuto ed assaporato fin da piccolissimo grazie alla cucina. Una cucina che è cresciuta nel tempo, che mi ha portato a diventare Esecutive Chef al “Il lusso della semplicità“, a Milano e che ora mi trascina in un nuovo progetto, il mio. Per me, non esiste un concetto unico di cucina: le culture, gli ingredienti e i sapori si mescolano e si mettono in discussione, dando vita, per ogni piatto, a qualcosa di unico ma soprattutto, di gustoso."
+        }
+    ],
+
+    
+
+
+    "listingsHeader": "Nabucco è la sua selezione di carne",
+    "menuOne" : "Sfoglia il menù",
+    "labelMenuOne": "Non solo carne",
+    "menuTwo" : "i nostri vini",
+    "labelMenuTwo": "Scegli il tuo",
+    "aboutHeading" : "La nostra filosofia",
+    "restaurantHeading" : "Le nostre radici",
+    "popUpHeading" : "Vieni alla nostra inaugurazione",
+    "popUpSubtitle" : "Brinda con noi il 13 dicembre a Roma",
+    "popUpButton" : "Vienici a trovare"
+ 
+}
