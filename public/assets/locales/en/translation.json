@@ -5,7 +5,7 @@
         { "id": 2, "title": "Menù", "link": "/menu" },
         { "id": 3, "title": "La filosofia", "link": "/filosofia" },
         { "id": 4, "title": "Il ristorante", "link": "/ristorante-nabucco" },
-        { "id": 5, "title": "Regala una cena", "link": "/executive" }
+        { "id": 5, "title": "Info per gruppi", "link": "/eventi" }
 
     ],
 
@@ -110,6 +110,32 @@
         }
     ],
 
+    "executivePage": [
+        {
+            "id": 0,
+            "heading": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?",
+            "paragraphOne": "Nabucco è pronto ad accogliervi, contattaci e scegliamo insieme la tua ala della sala preferita. Opta per il secondo piano per un evento intimo ed esclusivo, o per la grande sala per invitare tutti i tuoi amici. \n \n Compila il form, sarai ricontattato entro 48 ore."
+        }
+    ],
+
+    "contactPage": [
+        {
+            "id": 0,
+            "heading": "Nabucco ti aspetta, contattaci",
+            "paragraphOne": "Lungotevere Flaminio, 57, 00196, Roma \n \n Aperto a cena dalle ore 20:00",
+            "tel": "063610097",
+            "form": "Altrimenti compila il form, sarai ricontattato entro 48h"
+        }
+    ],
+    "contactUsHome": [
+        {
+            "id": 0,
+            "title": "Dove siamo?",
+            "subtitle": "Lungotevere Flaminio, 57 - 000196 - Roma \n \nAperti a cena dalle ore 20:00",
+            "path": "/contatti",
+            "label": "Contattaci"
+        }
+    ],
     
 
 
@@ -120,6 +146,8 @@
     "labelMenuTwo": "Scegli il tuo",
     "aboutHeading" : "La nostra filosofia",
     "restaurantHeading" : "Le nostre radici",
+    "executiveHeading" : "Nabucco per la tua cena importante",
+    "contactHeading" : "Contatti",
     "popUpHeading" : "Vieni alla nostra inaugurazione",
     "popUpSubtitle" : "Brinda con noi il 13 dicembre a Roma",
     "popUpButton" : "Vienici a trovare"
