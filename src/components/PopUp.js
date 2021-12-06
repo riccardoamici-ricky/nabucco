@@ -4,7 +4,6 @@ import Image from '../images/menu-nabucco.jpg';
 import { Button } from './Button';
 import { FaTimes } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
-import { default as i18next } from 'i18next';
 
 const PopUp = ({ showModal, setShowModal }) => {
 

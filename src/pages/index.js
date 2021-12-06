@@ -13,10 +13,6 @@ import ImageThree from '../images/cavolo.jpg';
 
 const Home = () => {
     const [showModal, setShowModal] = useState(true);
-
-  const openModal = () => {
-    setShowModal(prev => !prev);
-  };
     return (
         <>
         <PopUp showModal={showModal} setShowModal={setShowModal}/>
