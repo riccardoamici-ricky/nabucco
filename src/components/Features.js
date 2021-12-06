@@ -88,7 +88,7 @@ const Features = () => {
 							>
 								<h1>{t(data.title)}</h1>
 								<p>{t(data.subtitle)}</p>
-								<Button to="/homes" primary="true">
+								<Button to={t(data.path)} primary="true">
 									{t(data.label)}
 								</Button>
 							</Content>

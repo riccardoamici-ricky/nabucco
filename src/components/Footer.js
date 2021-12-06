@@ -98,15 +98,15 @@ const Footer = () => {
 					</Quote>
 					<FooterInfo>
 						<h4>Link veloci</h4>
-						<Link to="/homes">Menù</Link>
-						<Link to="/homes">Filosofia</Link>
-						<Link to="/homes">Regala una cena</Link>
+						<Link to="/menu">Menù</Link>
+						<Link to="/filosofia">Filosofia</Link>
+						<Link to="/eventi">Cene aziendali</Link>
 					</FooterInfo>
 					<FooterInfo>
 						<h4>Legal</h4>
-						<Link to="/homes">Cookie Policy</Link>
-						<Link to="/homes">Privacy Policy</Link>
-						<Link to="/homes">Contatti</Link>
+						<Link to="/">Cookie Policy</Link>
+						<Link to="/">Privacy Policy</Link>
+						<Link to="/contatti">Contatti</Link>
 					</FooterInfo>
 				</FooterTop>
 				<FooterBottom>

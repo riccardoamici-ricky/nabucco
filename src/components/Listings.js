@@ -130,7 +130,7 @@ const Listings = () => {
                     <InfoWrap data-aos='zoom-out-down' data-aos-duration='1000' data-aos-delay='300'>
                         <ImageTwo src={SecondBlockImg} alt="" />
                         <InfoLink to='/menu'><h2>{t('menuTwo')}</h2></InfoLink>
-                        <InfoLink to='/homes'>
+                        <InfoLink to='/menu'>
                             <p>{t('labelMenuTwo')}</p>
                             <Arrow />
                         </InfoLink>
