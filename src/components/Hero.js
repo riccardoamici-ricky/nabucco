@@ -82,6 +82,8 @@ const HeroContent = styled.div`
 		text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 		text-align: left;
 		margin-bottom: 0.8rem;
+		@media screen and (max-width: 768px) {
+			font-size: 6vh;    }
 	}
 
 	p {
