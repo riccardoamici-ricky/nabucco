@@ -44,7 +44,7 @@ const DropdownMenu = styled.div`
 	margin-bottom: 2rem;
 
 	@media screen and (max-width: 480px) {
-		grid-template-rows: repeat(4, 60px);
+		grid-template-rows: repeat(5, 60px);
 	}
 `;
 

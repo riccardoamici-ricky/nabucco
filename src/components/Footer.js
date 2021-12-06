@@ -50,7 +50,7 @@ const FooterInfo = styled.div`
 		text-decoration: none;
 	}
 	@media screen and (max-width: 768px) {
-		align-items: center;
+		align-items: baseline;
 	}
 `;
 const FooterBottom = styled.div`
@@ -129,13 +129,11 @@ const Footer = () => {
 					</Quote>
 					<MobileLinks>
 					<FooterInfo>
-						<h4>Link veloci</h4>
 						<Link to="/menu">Menù</Link>
 						<Link to="/filosofia">Filosofia</Link>
 						<Link to="/eventi">Eventi</Link>
 					</FooterInfo>
 					<FooterInfo>
-						<h4>Legal</h4>
 						<Link to="/">Cookies</Link>
 						<Link to="/">Privacy</Link>
 						<Link to="/contatti">Contatti</Link>

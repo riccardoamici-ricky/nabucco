@@ -45,7 +45,7 @@ const PopUp = ({ showModal, setShowModal }) => {
 		justify-content: center;
 		align-items: center;
         z-index: 999999;
-
+        
         
 	`;
 
@@ -62,6 +62,8 @@ const PopUp = ({ showModal, setShowModal }) => {
 		border-radius: 10px;
         @media screen and (max-width: 530px) {
             grid-template-columns: 1fr;
+            width: 80%;
+            height: 70%;
         }
 	`;
 

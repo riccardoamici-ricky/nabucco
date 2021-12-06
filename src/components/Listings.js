@@ -13,9 +13,7 @@ const Section = styled.section`
     padding: 10rem calc((100vw - 1300px) / 2);
 
     @media screen and (max-width: 768px) {
-		padding-top: 10vh;
-        padding-bottom: 0px;
-    }
+		padding: 10vh 0vh;    }
 `
 
 const Container = styled.div`
@@ -70,6 +68,7 @@ const InfoWrap = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-bottom: 1rem;
+        min-height: 0px;
     }
 `;
 
