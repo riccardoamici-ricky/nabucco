@@ -73,6 +73,9 @@ const PopUp = ({ showModal, setShowModal }) => {
 		border-radius: 10px 0 0 10px;
 		background: #000;
         object-fit: cover;
+
+        @media screen and (max-width: 768px) {
+         height: auto;    }
 	`;
 
 	const ModalContent = styled.div`
