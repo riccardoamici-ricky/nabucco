@@ -56,6 +56,10 @@ const HeroContent = styled.div`
 		background-color: #000;
 		padding: 1rem;
 		font-family: 'Cormorant Garamond', serif;
+		@media screen and (max-width: 768px) {
+			font-size: 4vh; 
+		margin-top: 60px;   }
+	}
 	}
 `;
 
