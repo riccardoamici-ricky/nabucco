@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
 import { default as i18next } from 'i18next';
 import Form from './Form';
+import Map from './Map';
 
 const Section = styled.section`
 	width: 60%;
@@ -40,7 +41,7 @@ const Container = styled.div`
 	}
 `;
 
-const PagesBody = ({ image, source, secondImage, double, form }) => {
+const PagesBody = ({ image, source, secondImage, double, form, map }) => {
 	const { t } = useTranslation();
 
 	return (
@@ -49,6 +50,9 @@ const PagesBody = ({ image, source, secondImage, double, form }) => {
 				<Container>
 					<h1>{t(data.heading)}</h1>
 					<p>{t(data.paragraphOne)}</p>
+					{map ? <a href="tel:+39063610097">{t(data.tel)}</a> : null}
+					{ map ? <Map /> : null }
+					{map ? <h1>{t(data.form)}</h1> : null}
 					{form ? <Form /> : null }
 					<img src={image ? image : null} alt={t(data.altImg ? data.altImg : null)} />
 					<p>{t(data.paragraphTwo ? data.paragraphTwo : null)}</p>

@@ -7,6 +7,8 @@ import PopUp from '../components/PopUp'
 import ImageOne from '../images/square-restaurant.png';
 import ImageTwo from '../images/vino.jpg';
 import ImageThree from '../images/cavolo.jpg';
+import ImageFour from '../images/carne-al-fuoco.jpg';
+import ContactUs from '../components/ContactUs'
 
 
 
@@ -22,6 +24,7 @@ const Home = () => {
         <InfoSection image={ImageTwo} reverse={true} source={'secondInfoData'}/>
         <Features />
         <InfoSection image={ImageThree} reverse={true} source={'thirdInfoData'}/>
+        <ContactUs />
         </>
     )
 }
