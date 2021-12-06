@@ -32,7 +32,12 @@ const Quote = styled.div`
 
 	h3 {
 		font-size: clamp(2rem, 8vw, 5rem);
+
+		@media screen and (max-width: 768px) {
+			text-align: center;
+		}
 	}
+	
 `;
 const FooterInfo = styled.div`
 	padding: 2rem;
@@ -44,13 +49,16 @@ const FooterInfo = styled.div`
 		color: #fff;
 		text-decoration: none;
 	}
+	@media screen and (max-width: 768px) {
+		align-items: center;
+	}
 `;
 const FooterBottom = styled.div`
 	display: flex;
 	padding: 2rem 0rem;
 
 	@media screen and (max-width: 768px) {
-		flex-direction: column;
+		display: unset;
 	}
 `;
 const SocialIcons = styled.div`
@@ -60,17 +68,28 @@ const SocialIcons = styled.div`
 	@media screen and (max-width: 768px) {
 		margin-bottom: 2rem;
 		width: 100%;
+		justify-content: center;
 	}
 `;
 const Instagram = styled(FaInstagram)`
     font-size: clamp(1rem, 6vw, 2rem);
     margin-right: 1.5rem;
     color: #fff;
+
+	@media screen and (max-width: 768px) {
+		margin: 0 10px;;
+	
+	}
 `;
 const Facebook = styled(FaFacebookF)`
 font-size: clamp(1rem, 6vw, 2rem);
     margin-right: 1.5rem;
     color: #fff;
+
+	@media screen and (max-width: 768px) {
+		margin: 0 10px;;
+	
+	}
 `;
 const Contact = styled.div`
 
@@ -82,8 +101,20 @@ const Contact = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        justify-content: flex-start;
+        justify-content: center;
+		padding-right: 0px;
     }
+`;
+
+const MobileLinks = styled.span`
+
+display: flex;
+	flex-direction: unset;
+
+@media screen and (max-width: 768px) {
+	display: flex;
+	margin: auto;
+}
 `;
 
 const Footer = () => {
@@ -96,6 +127,7 @@ const Footer = () => {
 							This is<br /> Nabucco
 						</h3>
 					</Quote>
+					<MobileLinks>
 					<FooterInfo>
 						<h4>Link veloci</h4>
 						<Link to="/menu">Menù</Link>
@@ -108,6 +140,7 @@ const Footer = () => {
 						<Link to="/">Privacy Policy</Link>
 						<Link to="/contatti">Contatti</Link>
 					</FooterInfo>
+					</MobileLinks>
 				</FooterTop>
 				<FooterBottom>
 					<SocialIcons>
@@ -119,7 +152,7 @@ const Footer = () => {
 						</a>
 					</SocialIcons>
 					<Contact>
-						<Button to="/homes/" >
+						<Button to="/contatti" >
 							Prenota <IoMdArrowRoundForward />
 						</Button>
 					</Contact>

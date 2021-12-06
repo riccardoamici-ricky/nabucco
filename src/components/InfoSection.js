@@ -18,6 +18,7 @@ const Container = styled.div`
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
+		grid-template-rows: 400px;
 	}
 `;
 const ColumnLeft = styled.div`
@@ -57,7 +58,7 @@ const ColumnRight = styled.div`
 		object-fit: cover;
 
 		@media screen and (max-width: 768px) {
-			width: 90%;
+			width: 100%;
 			height: 90%;
 		}
 	}

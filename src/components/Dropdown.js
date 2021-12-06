@@ -83,7 +83,7 @@ const Dropdown = ({ isOpen, toggle }) => {
 			<DropdownWrapper>
 				<DropdownMenu>
 					{i18next.t('menuData', { returnObjects: true }).map((item) => (
-						<DropdownLink to={t(item.link)} key={item.id}>
+						<DropdownLink to={t(item.link)} key={item.id} onClick={toggle}>
 							{t(item.title)}
 						</DropdownLink>
 					))}

@@ -60,9 +60,10 @@ const ColumnRight = styled.div`
 	@media screen and (max-width: 768px) {
 		height: 320px;
 		top: -65px;
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 		left: 0;
+		padding: 0 32px;
 	}
 `;
 const Image = styled.img`

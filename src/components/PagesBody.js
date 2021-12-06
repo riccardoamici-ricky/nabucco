@@ -12,6 +12,10 @@ const Section = styled.section`
 	background-color: #fff;
 	margin: auto;
 	text-align: justify;
+
+	@media screen and (max-width: 768px) {
+		width: 90%;
+	}
 `;
 const Container = styled.div`
 	padding: 3rem calc((100vw - 1300px) / 2);
@@ -35,7 +39,7 @@ const Container = styled.div`
 		max-height: 50vh;
 
 		@media screen and (max-width: 768px) {
-			width: 90%;
+			width: 100%;
 			height: 90%;
 		}
 	}
