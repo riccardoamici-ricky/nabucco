@@ -47,12 +47,12 @@ const PagesBody = ({ image, source, secondImage, double, form, map }) => {
 	return (
 		<Section>
 			{i18next.t(source, { returnObjects: true }).map((data) => (
-				<Container>
+				<Container key={t(data.id)}>
 					<h1>{t(data.heading)}</h1>
 					<p>{t(data.paragraphOne)}</p>
-					{map ? <a href="tel:+39063610097">{t(data.tel)}</a> : null}
+					{ map ? <a href="tel:+39063610097">{t(data.tel)}</a> : null}
 					{ map ? <Map /> : null }
-					{map ? <h1>{t(data.form)}</h1> : null}
+					{ map ? <h1>{t(data.form)}</h1> : null}
 					{form ? <Form /> : null }
 					<img src={image ? image : null} alt={t(data.altImg ? data.altImg : null)} />
 					<p>{t(data.paragraphTwo ? data.paragraphTwo : null)}</p>
