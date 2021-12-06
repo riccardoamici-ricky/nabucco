@@ -132,12 +132,12 @@ const Footer = () => {
 						<h4>Link veloci</h4>
 						<Link to="/menu">Menù</Link>
 						<Link to="/filosofia">Filosofia</Link>
-						<Link to="/eventi">Cene aziendali</Link>
+						<Link to="/eventi">Eventi</Link>
 					</FooterInfo>
 					<FooterInfo>
 						<h4>Legal</h4>
-						<Link to="/">Cookie Policy</Link>
-						<Link to="/">Privacy Policy</Link>
+						<Link to="/">Cookies</Link>
+						<Link to="/">Privacy</Link>
 						<Link to="/contatti">Contatti</Link>
 					</FooterInfo>
 					</MobileLinks>
