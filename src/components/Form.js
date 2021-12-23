@@ -3,28 +3,39 @@ import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
 
 const Container = styled.div`
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 
-	input {
+	input,
+	select {
 		width: 100%;
 		padding: 12px 20px;
 		margin: 8px 0;
 		box-sizing: border-box;
-	  }
+	}
 
-	  textarea {
+	textarea {
 		width: 100%;
 		padding: 12px 20px;
 		margin: 8px 0;
 		box-sizing: border-box;
-	  }
+	}
 
-	  input:focus {
+	input:focus {
 		outline: none;
-	  }
+	}
 
-	  input[type=button], input[type=submit], input[type=reset] {
+	select:focus {
+		outline: none;
+	}
+
+	textarea:focus {
+		outline: none;
+	}
+
+	input[type=button],
+	input[type=submit],
+	input[type=reset] {
 		background-color: #214448;
 		border: none;
 		color: white;
@@ -32,10 +43,10 @@ const Container = styled.div`
 		text-decoration: none;
 		margin: 4px 2px;
 		cursor: pointer;
-	  }
+	}
 `;
 
-const Form = () => {
+const Form = ({ nabucco }) => {
 	const { register, formState: { errors } } = useForm();
 	console.log(errors);
 
@@ -50,7 +61,26 @@ const Form = () => {
 					{...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
 				/>
 				<input type="tel" placeholder="Telefono" {...register('Telefono', { required: true, maxLength: 15 })} />
-				<textarea type="text" placeholder="Messaggio"  cols="40" rows="5" {...register('Messaggio', {})} />
+				{nabucco ? (
+					<select name="piano" id="0" form="piano" {...register('Piano', { required: false })}>
+						<option value="piano-terra">Piano Terra</option>
+						<option value="piano-superiore">Piano Superiore</option>
+					</select>
+				) : (
+					<select
+						name="tipo-evento"
+						id="0"
+						form="tipo-evento"
+						{...register('Tipo Evento', { required: false })}
+					>
+						<option value="piano-terra">Comunione</option>
+						<option value="piano-superiore">Matrimonio</option>
+						<option value="piano-superiore">Compleanno</option>
+						<option value="piano-superiore">Laurea</option>
+						<option value="piano-superiore">Altro (specifica nel messaggio)</option>
+					</select>
+				)}
+				<textarea type="text" placeholder="Messaggio" cols="40" rows="5" {...register('Messaggio', {})} />
 				<input type="hidden" name="_next" value="https://www.youtube.com/watch?v=qFJvQii2QRw" />
 				<input type="hidden" name="_captcha" value="false" />
 				<input type="hidden" name="_subject" value="Nuova richiesta info dal sito nabuccos.com" />

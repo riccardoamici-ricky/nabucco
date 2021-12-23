@@ -12,6 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Contact from './pages/Contact';
 import Restaurant from './pages/Restaurant';
 import Executive from './pages/Executive';
+import Menu from './pages/Menu';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/contatti" element={ <Contact />} />
         <Route path="/ristorante-nabucco" element={ <Restaurant />} />
         <Route path="/eventi" element={ <Executive />} />
+        <Route path="/menu" element={ <Menu />} />
       </Routes>
       <Footer />
     </>

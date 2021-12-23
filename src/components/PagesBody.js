@@ -24,7 +24,7 @@ const Container = styled.div`
 		margin-bottom: 1rem;
 		font-size: clamp(1.5rem, 6vw, 2rem);
 		color: #214448;
-        font-family: 'Cormorant Garamond', serif;
+		font-family: 'Cormorant Garamond', serif;
 	}
 
 	p {
@@ -45,7 +45,7 @@ const Container = styled.div`
 	}
 `;
 
-const PagesBody = ({ image, source, secondImage, double, form, map }) => {
+const PagesBody = ({ image, source, secondImage, double, form, map, nabucco }) => {
 	const { t } = useTranslation();
 
 	return (
@@ -54,15 +54,15 @@ const PagesBody = ({ image, source, secondImage, double, form, map }) => {
 				<Container key={t(data.id)}>
 					<h1>{t(data.heading)}</h1>
 					<p>{t(data.paragraphOne)}</p>
-					{ map ? <a href="tel:+39063610097">{t(data.tel)}</a> : null}
-					{ map ? <Map /> : null }
-					{ map ? <h1>{t(data.form)}</h1> : null}
-					{form ? <Form /> : null }
+					{map ? <a href="tel:+39063610097">{t(data.tel)}</a> : null}
+					{map ? <Map /> : null}
+					{map ? <h1>{t(data.form)}</h1> : null}
+					{form ? <Form nabucco={map ? true : false} /> : null}
 					<img src={image ? image : null} alt={t(data.altImg ? data.altImg : null)} />
 					<p>{t(data.paragraphTwo ? data.paragraphTwo : null)}</p>
-					{secondImage ? <img src={secondImage} alt={t(data.altSecondImg)} /> : null }
-					{double ? <h1 style={{marginTop: 50}}>{t(data.secondHeading)}</h1> : null }
-					{double ? <p>{t(data.secondParagraphOne)}</p> : null }
+					{secondImage ? <img src={secondImage} alt={t(data.altSecondImg)} /> : null}
+					{double ? <h1 style={{ marginTop: 50 }}>{t(data.secondHeading)}</h1> : null}
+					{double ? <p>{t(data.secondParagraphOne)}</p> : null}
 				</Container>
 			))}
 		</Section>

@@ -6,11 +6,9 @@ import ChooseLanguage from './ChooseLanguage';
 import LogoImg from '../images/logo.svg';
 import { useTranslation } from 'react-i18next';
 import { default as i18next } from 'i18next';
+import { FaInstagram, FaFacebookF } from 'react-icons/fa';
 
-const Image = styled.img`
-	height: 20vh;
-	
-`;
+const Image = styled.img`height: 20vh;`;
 
 const Nav = styled.nav`
 	height: 60px;
@@ -71,37 +69,62 @@ const NavMenuLinks = styled(Link)`
     }
 `;
 
-const LanguageContainer = styled.div`@media screen and (max-width: 768px) {display: none;}`;
+const SocialIcons = styled.div`
+	@media screen and (max-width: 768px) {
+		margin-bottom: 2rem;
+		width: 100%;
+		justify-content: center;
+	}
+`;
+const Instagram = styled(FaInstagram)`
+    font-size: 1em;
+    margin-right: 1.5rem;
+    color: #fff;
+	margin-top: 5px;
+
+`;
+const Facebook = styled(FaFacebookF)`
+font-size: 1em;
+    margin-right: 1.5rem;
+    color: #fff;
+
+`;
+
+const LanguageContainer = styled.div`
+	display: flex;
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+`;
 
 const Navbar = ({ toggle }) => {
-
-	const [navbar, setNavbar] = useState(false)
-	const location = useLocation()
+	const [ navbar, setNavbar ] = useState(false);
+	const location = useLocation();
 
 	const changeBackground = () => {
-		if(window.pageYOffset > 60) {
-			setNavbar(true)
-		}else{
-			setNavbar(false)
+		if (window.pageYOffset > 60) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
 		}
-	}
+	};
 
 	useEffect(() => {
 		const watchScroll = () => {
-			window.addEventListener('scroll', changeBackground)
-		}
+			window.addEventListener('scroll', changeBackground);
+		};
 
-		watchScroll()
+		watchScroll();
 
 		return () => {
-			window.removeEventListener('scroll', changeBackground)
-		}
+			window.removeEventListener('scroll', changeBackground);
+		};
 	}, []);
 
 	let style = {
-		backgroundColor: navbar || location.pathname !== "/" ? 'black' : 'transparent',
+		backgroundColor: navbar || location.pathname !== '/' ? 'black' : 'transparent',
 		transition: '0.4s'
-	}
+	};
 
 	const { t } = useTranslation();
 
@@ -118,12 +141,20 @@ const Navbar = ({ toggle }) => {
 			<MenuBars onClick={toggle} />
 			<NavMenu>
 				{i18next.t('menuData', { returnObjects: true }).map((item) => (
-					<NavMenuLinks to={t(item.link)} key={item.id}>
+					<NavMenuLinks to={t(item.link)} key={item.id} target={item.id === 3 ? '_blank' : ''}>
 						{t(item.title)}
 					</NavMenuLinks>
 				))}
 			</NavMenu>
 			<LanguageContainer>
+				<SocialIcons>
+					<a href="//www.instagram.com/tanagra_ristorante/" rel="noopener noreferrer" target="_blank">
+						<Instagram />
+					</a>
+					<a href="//www.google.com" rel="noopener noreferrer" target="_blank">
+						<Facebook />
+					</a>
+				</SocialIcons>
 				<ChooseLanguage isOpenLang={isOpenLang} toggleLang={toggleLang} />
 			</LanguageContainer>
 		</Nav>

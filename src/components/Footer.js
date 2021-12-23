@@ -37,7 +37,6 @@ const Quote = styled.div`
 			text-align: center;
 		}
 	}
-	
 `;
 const FooterInfo = styled.div`
 	padding: 2rem;
@@ -77,7 +76,7 @@ const Instagram = styled(FaInstagram)`
     color: #fff;
 
 	@media screen and (max-width: 768px) {
-		margin: 0 10px;;
+		margin: 0 10px;
 	
 	}
 `;
@@ -87,34 +86,32 @@ font-size: clamp(1rem, 6vw, 2rem);
     color: #fff;
 
 	@media screen and (max-width: 768px) {
-		margin: 0 10px;;
+		margin: 0 10px;
 	
 	}
 `;
 const Contact = styled.div`
-
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	padding-right: 2rem;
 
-    @media screen and (max-width: 768px) {
-        width: 100%;
-        justify-content: center;
+	@media screen and (max-width: 768px) {
+		width: 100%;
+		justify-content: center;
 		padding-right: 0px;
-    }
+	}
 `;
 
 const MobileLinks = styled.span`
-
-display: flex;
+	display: flex;
 	flex-direction: unset;
 
-@media screen and (max-width: 768px) {
-	display: flex;
-	margin: auto;
-}
+	@media screen and (max-width: 768px) {
+		display: flex;
+		margin: auto;
+	}
 `;
 
 const Footer = () => {
@@ -128,21 +125,21 @@ const Footer = () => {
 						</h3>
 					</Quote>
 					<MobileLinks>
-					<FooterInfo>
-						<Link to="/menu">Menù</Link>
-						<Link to="/filosofia">Filosofia</Link>
-						<Link to="/eventi">Eventi</Link>
-					</FooterInfo>
-					<FooterInfo>
-						<Link to="/">Cookies</Link>
-						<Link to="/">Privacy</Link>
-						<Link to="/contatti">Contatti</Link>
-					</FooterInfo>
+						<FooterInfo>
+							<Link to="/menu">Menù</Link>
+							<Link to="/filosofia">Filosofia</Link>
+							<Link to="/eventi">Eventi</Link>
+						</FooterInfo>
+						<FooterInfo>
+							<Link to="/">Cookies</Link>
+							<Link to="/">Privacy</Link>
+							<Link to="/contatti">Contatti</Link>
+						</FooterInfo>
 					</MobileLinks>
 				</FooterTop>
 				<FooterBottom>
 					<SocialIcons>
-						<a href="//www.google.com" rel="noopener noreferrer" target="_blank">
+						<a href="//www.instagram.com/tanagra_ristorante/" rel="noopener noreferrer" target="_blank">
 							<Instagram />
 						</a>
 						<a href="//www.google.com" rel="noopener noreferrer" target="_blank">
@@ -150,7 +147,7 @@ const Footer = () => {
 						</a>
 					</SocialIcons>
 					<Contact>
-						<Button to="/contatti" >
+						<Button to="/contatti">
 							Prenota <IoMdArrowRoundForward />
 						</Button>
 					</Contact>

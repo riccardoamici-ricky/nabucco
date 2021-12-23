@@ -10,6 +10,7 @@ const Section = styled.section`
 	padding: 4rem 0rem;
 	background-color: #fff;
 `;
+
 const Container = styled.div`
 	padding: 3rem calc((100vw - 1300px) / 2);
 	display: grid;
@@ -21,6 +22,7 @@ const Container = styled.div`
 		grid-template-rows: 400px;
 	}
 `;
+
 const ColumnLeft = styled.div`
 	display: flex;
 	flex-direction: column;

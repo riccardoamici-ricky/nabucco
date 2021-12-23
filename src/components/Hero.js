@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import styled, { css } from 'styled-components/macro';
 import { Button } from './Button';
 import { IoMdArrowRoundForward } from 'react-icons/io';
@@ -6,10 +6,10 @@ import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
 import { useTranslation } from 'react-i18next';
 import { default as i18next } from 'i18next';
 
-import ImageOne from '../images/carne.jpeg'
-import ImageTwo from '../images/menu.jpg'
-import ImageThree from '../images/slider-terzo.jpg'
-import ImageFour from '../images/filosofia.jpg'
+import ImageOne from '../images/carne-nabucco.jpg';
+import ImageTwo from '../images/carne-fuoco.jpg';
+import ImageThree from '../images/carne-gourmet.jpg';
+import ImageFour from '../images/fuoco.jpg';
 
 const HeroSection = styled.section`
 	height: 100vh;
@@ -83,7 +83,8 @@ const HeroContent = styled.div`
 		text-align: left;
 		margin-bottom: 0.8rem;
 		@media screen and (max-width: 768px) {
-			font-size: 6vh;    }
+			font-size: 6vh;
+		}
 	}
 
 	p {
@@ -93,7 +94,7 @@ const HeroContent = styled.div`
 `;
 
 const Arrow = styled(IoMdArrowRoundForward)`
-margin-left: 0.5rem`;
+margin-left: 2.5rem`;
 const arrowButtons = css`
 	width: 50px;
 	height: 50px;
@@ -115,7 +116,7 @@ const arrowButtons = css`
 const SliderButtons = styled.div`
 	position: absolute;
 	bottom: 50px;
-	right: 50px;
+	right: 250px;
 	display: flex;
 	z-index: 10;
 `;
@@ -139,7 +140,6 @@ ${arrowButtons}
 `;
 
 const Hero = () => {
-
 	const slides = [
 		{
 			image: ImageOne,
@@ -157,32 +157,30 @@ const Hero = () => {
 			image: ImageFour,
 			alt: 'Nabucco'
 		}
-	]
-	
+	];
+
 	const { t } = useTranslation();
 
 	const [ current, setCurrent ] = useState(0);
 	const length = slides.length;
 	const timeout = useRef(null);
 
-	
+	// useEffect(
+	// 	() => {
+	// 		const nextSlide = () => {
+	// 			setCurrent((current) => (current === length - 1 ? 0 : current + 1));
+	// 		};
 
-	useEffect(
-		() => {
-			const nextSlide = () => {
-				setCurrent((current) => (current === length - 1 ? 0 : current + 1));
-			};
+	// 		timeout.current = setTimeout(nextSlide, 5000);
 
-			timeout.current = setTimeout(nextSlide, 5000);
-
-			return function() {
-				if (timeout.current) {
-					clearTimeout(timeout.current);
-				}
-			};
-		},
-		[ current, length ]
-	);
+	// 		return function() {
+	// 			if (timeout.current) {
+	// 				clearTimeout(timeout.current);
+	// 			}
+	// 		};
+	// 	},
+	// 	[ current, length ]
+	// );
 
 	const nextSlide = () => {
 		if (timeout.current) {
@@ -204,26 +202,40 @@ const Hero = () => {
 
 	return (
 		<HeroSection>
-			<HeroWrapper data-aos="fade-down" data-aos-easing="linear"
-		data-aos-duration="1000">
+			<HeroWrapper data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 				{slides.map((slide, index) => {
 					return (
 						<HeroSlide key={index}>
 							{index === current && (
 								<HeroSlider>
 									<HeroImage src={slide.image} alt={slide.alt} />
-
 									<HeroContent>
 										{i18next.t('sliderData', { returnObjects: true }).map((slider) => {
 											return (
 												index === slider.id && (
 													<div key={slider.id}>
-														<h1 data-aos='fade-down' data-aos-duration='600'>{t(slider.title)}</h1>
-														<p data-aos='fade-down' data-aos-duration='600' data-aos-delay='200'>{t(slider.subtitle)}</p>
-														<Button data-aos='zoom-out' data-aos-duration='500' data-aos-delay='250' to={t(slider.path)} primary="true">
-															{t(slider.label)}
-															<Arrow />
-														</Button>
+														<h1 data-aos="fade-down" data-aos-duration="600">
+															{t(slider.title)}
+														</h1>
+														<p
+															data-aos="fade-down"
+															data-aos-duration="600"
+															data-aos-delay="200"
+														>
+															{t(slider.subtitle)}
+														</p>
+														{slider.label ? (
+															<Button
+																data-aos="zoom-out"
+																data-aos-duration="500"
+																data-aos-delay="250"
+																to={t(slider.path)}
+																primary="true"
+															>
+																{t(slider.label)}
+																<Arrow />
+															</Button>
+														) : null}
 													</div>
 												)
 											);

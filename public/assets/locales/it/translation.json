@@ -1,155 +1,395 @@
 {
+	"menuData": [
+		{ "id": 0, "title": "Chi siamo", "link": "/ristorante-nabucco" },
+		{ "id": 1, "title": "Come lo facciamo", "link": "/filosofia" },
+		{ "id": 2, "title": "Menù", "link": "/menu" },
+		{ "id": 3, "title": "Vini", "link": "http://www.keepandshare.com/doc5/view.php?id=30517&da=y" },
+		{ "id": 4, "title": "Dove siamo", "link": "/contatti" },
+		{ "id": 5, "title": "Prenota", "link": "/contatti" },
+		{ "id": 6, "title": "Eventi", "link": "/eventi" }
+	],
 
-    "menuData": [
-        { "id": 1, "title": "Prenota", "link": "/contatti" },
-        { "id": 2, "title": "Menù", "link": "/menu" },
-        { "id": 3, "title": "La filosofia", "link": "/filosofia" },
-        { "id": 4, "title": "Il ristorante", "link": "/ristorante-nabucco" },
-        { "id": 5, "title": "Info per gruppi", "link": "/eventi" }
+	"sliderData": [
+		{
+			"id": 0,
+			"title": "Nabucco è la sua selezione di carne",
+			"subtitle": "Non proponiamo primi, toglierebbero il giusto spazio per assaporarla.",
+			"path": "/menu",
+			"label": "Scopri il menù",
+			"alt": "Nabucco"
+		},
+		{
+			"id": 1,
+			"title": "",
+			"subtitle": "",
+			"path": "",
+			"label": "",
+			"alt": ""
+		},
+		{
+			"id": 2,
+			"title": "",
+			"subtitle": "",
+			"path": "",
+			"label": "",
+			"alt": ""
+		},
+		{
+			"id": 3,
+			"title": "",
+			"subtitle": "",
+			"path": "",
+			"label": "",
+			"alt": ""
+		}
+	],
 
-    ],
+	"firstInfoData": [
+		{
+			"id": 0,
+			"title": "Scopri la storia di Nabucco, nel cuore di Roma",
+			"subtitle": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità.",
+			"second_subtitle": "Dal 1997 ad oggi in continua evoluzione, rimanendo però saldo alla qualità e ai valori che da sempre lo hanno contraddistinto.",
+			"path": "/ristorante-nabucco",
+			"label": "Le nostre radici"
+		}
+	],
 
-    "sliderData": [
-        {
-            "id": 0,
-            "title": "Materie prime di qualità",
-            "subtitle": "Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa.",
-            "path": "/contatti",
-            "label": "Prenota",
-            "alt": "Nabucco"
-        },
-        {
-            "id": 1,
-            "title": "Lasciati sorprendere da Carlo Gentili",
-            "subtitle": "Nella cucina si muovono le mani di un team che collabora insieme, uniti dalla passione di Carlo.",
-            "path": "/ristorante-nabucco",
-            "label": "Il nostro metodo",
-            "alt": "Nabucco"
-        },
-        {
-            "id": 2,
-            "title": "Nabucco è la sua selezione di carne",
-            "subtitle": "Non proponiamo primi, toglierebbero il giusto spazio per assaporarla.",
-            "path": "/menu",
-            "label": "Scopri il menù",
-            "alt": "Nabucco"
-        },
-        {
-            "id": 3,
-            "title": "Dal fuoco al piatto",
-            "subtitle": "Scansiona il QR code per conoscere produttori e provenienza, ti presentiamo la carne che hai sul piatto.",
-            "path": "/filosofia",
-            "label": "Il nostro metodo",
-            "alt": "Nabucco"
-        }
-    ],
+	"secondInfoData": [
+		{
+			"id": 0,
+			"title": "\"Dopo una vita accanto a Borghese, torno a casa e vi presento la mia cucina\"",
+			"subtitle": "A parlare è Carlo Gentili, ex Executive Chef al \"Lusso della semplicità\" a Milano che ora si imbarca in un progetto tutto suo: Nabucco.",
+			"second_subtitle": "Culture, ingredienti e sapori si mescolano e si mettono in discussione, dando vita a qualcosa di unico e gustoso.",
+			"path": "/ristorante-nabucco",
+			"label": "Scopri di più"
+		}
+	],
 
-    "firstInfoData": [
-        {
-            "id": 0,
-            "title": "Scopri la storia di Nabucco, nel cuore di Roma",
-            "subtitle": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità.",
-            "second_subtitle": "Dal 1997 ad oggi in continua evoluzione, rimanendo però saldo alla qualità e ai valori che da sempre lo hanno contraddistinto.",
-            "path": "/ristorante-nabucco",
-            "label": "Le nostre radici"
-        }
-    ],
-    
-    "secondInfoData": [
-        {
-            "id": 0,
-            "title": "\"Dopo una vita accanto a Borghese, torno a casa e vi presento la mia cucina\"",
-            "subtitle": "A parlare è Carlo Gentili, ex Executive Chef al \"Lusso della semplicità\" a Milano che ora si imbarca in un progetto tutto suo: Nabucco.",
-            "second_subtitle": "Culture, ingredienti e sapori si mescolano e si mettono in discussione, dando vita a qualcosa di unico e gustoso.",
-            "path": "/ristorante-nabucco",
-            "label": "Scopri di più"
-        }
-    ],
+	"giftADinner": [
+		{
+			"id": 0,
+			"title": "Riserva lo spazio per il tuo evento",
+			"subtitle": "Lascia che Nabucco sia il ristorante per la tua cena aziendale o per il tuo giorno speciale.",
+			"path": "/executive",
+			"label": "Voglio sapere di più"
+		}
+	],
 
-    "giftADinner": [
-        {
-            "id": 0,
-            "title": "Riserva lo spazio per il tuo evento",
-            "subtitle": "Lascia che Nabucco sia il ristorante per la tua cena aziendale o per il tuo giorno speciale.",
-            "path": "/executive",
-            "label": "Voglio sapere di più"
-        }
-    ],
+	"thirdInfoData": [
+		{
+			"id": 0,
+			"title": "Un buon piatto si identifica nelle materie prime che si utilizzano per realizzarlo.",
+			"subtitle": "Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile.",
+			"second_subtitle": "Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
+			"path": "/filosofia",
+			"label": "Impara a conoscerci"
+		}
+	],
 
-    "thirdInfoData": [
-        {
-            "id": 0,
-            "title": "Un buon piatto si identifica nelle materie prime che si utilizzano per realizzarlo.",
-            "subtitle": "Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile.",
-            "second_subtitle": "Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
-            "path": "/filosofia",
-            "label": "Impara a conoscerci"
-        }
-    ],
+	"aboutPage": [
+		{
+			"id": 0,
+			"heading": "Materie prime di qualità e atmosfera magica. Questo è il binomio sul quale abbiamo costruito lo spirito del nostro ristorante.",
+			"paragraphOne": "Un piatto buono si identifica nelle materie prime che si utilizzano per realizzarlo. Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile. Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
+			"paragraphTwo": "Il progetto è studiato nei minimi dettagli, Abbiamo studiato un menù che esalti la tradizione italiana, senza rimanerne ancorati, esplorando e giocando con l’innovazione, sfidando le regole. Crediamo che, in questo periodo, non sia necessario mangiare più carne, ma mangiarla meglio, consapevolmente. Puntiamo per questo a un cliente consapevole, che possa leggere e tracciare quello che arriva al suo tavolo, sul suo piatto. Tramite un QR code aggiornato costantemente, la qualità diventa palpabile, si tocca con mano, si legge con gli occhi, ancora prima che col palato.",
+			"altImg": "Ristorante carne roma Nabucco"
+		}
+	],
 
-    "aboutPage": [
-        {
-            "id": 0,
-            "heading": "Materie prime di qualità e atmosfera magica. Questo è il binomio sul quale abbiamo costruito lo spirito del nostro ristorante.",
-            "paragraphOne": "Un piatto buono si identifica nelle materie prime che si utilizzano per realizzarlo. Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile. Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
-            "paragraphTwo": "Il progetto è studiato nei minimi dettagli, Abbiamo studiato un menù che esalti la tradizione italiana, senza rimanerne ancorati, esplorando e giocando con l’innovazione, sfidando le regole. Crediamo che, in questo periodo, non sia necessario mangiare più carne, ma mangiarla meglio, consapevolmente. Puntiamo per questo a un cliente consapevole, che possa leggere e tracciare quello che arriva al suo tavolo, sul suo piatto. Tramite un QR code aggiornato costantemente, la qualità diventa palpabile, si tocca con mano, si legge con gli occhi, ancora prima che col palato.",
-            "altImg": "Ristorante carne roma Nabucco"
-        }
-    ],
+	"restaurantPage": [
+		{
+			"id": 0,
+			"heading": "Scopri la storia di Nabucco, nel cuore di Roma.",
+			"paragraphOne": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità. Quella che oggi ospita il nostro ristorante fu una fabbrica di ceramiche artigianali, un laboratorio famoso in tutto il mondo che prendeva il nome di Tanagra, in onore della città greca dove furono ritrovate le prime ceramiche colorate, le Tanagrine, appunto. Ed è proprio il nome Tanagra ad essere stato ripreso dal nostro ristorante, che nel 1997 ha aperto per la prima volta le sue porte e che per 24 anni ha accolto e deliziato i palati di molti. \n \n Oggi Tanagra cambia nome e diventa Nabucco, pronto più che mai a rinnovarsi e ad aprire nuove strade, concentrandosi su un menù di carne, moderno e contemporaneo, senza rinunciare alla qualità e i valori che lo hanno sempre contrassegnato.",
+			"paragraphTwo": "Non siamo matricole del mondo della ristorazione. Non siamo novellini che si affacciano incucina emozionati per la loro prima esperienza. Non pensiamo alle serate spaventati, inconsapevoli di cosa ci aspetta. Siamo chi il ristorante lo ha fatto, il territorio lo conosce da anni, sulla cucina ha già le idee chiare. Siamo qui per mostrarvele. \n \n Nella cucina, si muovono le mani di un team che collabora insieme, uniti dalla passione e la cura per il buon cibo. Bollono le stesse idee e la stessa arte culinaria, concentrata sull’artigianalità, sulla stagionalità, sul gusto.",
+			"altSecondImg": "Lo chef",
+			"secondHeading": "Carlo Gentili, lo chef",
+			"secondParagraphOne": "Dopo 20 anni di esperienza accanto ad Alessandro Borghese, è tempo di tornare a casa, qui dove tutto, per me, è cominciato. La mia è stata una gavetta tutta romana, il territorio l’ho esplorato, conosciuto ed assaporato fin da piccolissimo grazie alla cucina. Una cucina che è cresciuta nel tempo, che mi ha portato a diventare Esecutive Chef al “Il lusso della semplicità“, a Milano e che ora mi trascina in un nuovo progetto, il mio. Per me, non esiste un concetto unico di cucina: le culture, gli ingredienti e i sapori si mescolano e si mettono in discussione, dando vita, per ogni piatto, a qualcosa di unico ma soprattutto, di gustoso."
+		}
+	],
 
+	"executivePage": [
+		{
+			"id": 0,
+			"heading": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?",
+			"paragraphOne": "Nabucco è pronto ad accogliervi, contattaci e scegliamo insieme la tua ala della sala preferita. Opta per il secondo piano per un evento intimo ed esclusivo, o per la grande sala per invitare tutti i tuoi amici. \n \n Compila il form, sarai ricontattato entro 48 ore."
+		}
+	],
 
-    "restaurantPage": [
-        {
-            "id": 0,
-            "heading": "Scopri la storia di Nabucco, nel cuore di Roma.",
-            "paragraphOne": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità. Quella che oggi ospita il nostro ristorante fu una fabbrica di ceramiche artigianali, un laboratorio famoso in tutto il mondo che prendeva il nome di Tanagra, in onore della città greca dove furono ritrovate le prime ceramiche colorate, le Tanagrine, appunto. Ed è proprio il nome Tanagra ad essere stato ripreso dal nostro ristorante, che nel 1997 ha aperto per la prima volta le sue porte e che per 24 anni ha accolto e deliziato i palati di molti. \n \n Oggi Tanagra cambia nome e diventa Nabucco, pronto più che mai a rinnovarsi e ad aprire nuove strade, concentrandosi su un menù di carne, moderno e contemporaneo, senza rinunciare alla qualità e i valori che lo hanno sempre contrassegnato.",
-            "paragraphTwo": "Non siamo matricole del mondo della ristorazione. Non siamo novellini che si affacciano incucina emozionati per la loro prima esperienza. Non pensiamo alle serate spaventati, inconsapevoli di cosa ci aspetta. Siamo chi il ristorante lo ha fatto, il territorio lo conosce da anni, sulla cucina ha già le idee chiare. Siamo qui per mostrarvele. \n \n Nella cucina, si muovono le mani di un team che collabora insieme, uniti dalla passione e la cura per il buon cibo. Bollono le stesse idee e la stessa arte culinaria, concentrata sull’artigianalità, sulla stagionalità, sul gusto.",
-            "altSecondImg": "Lo chef",
-            "secondHeading": "Carlo Gentili, lo chef",
-            "secondParagraphOne": "Dopo 20 anni di esperienza accanto ad Alessandro Borghese, è tempo di tornare a casa, qui dove tutto, per me, è cominciato. La mia è stata una gavetta tutta romana, il territorio l’ho esplorato, conosciuto ed assaporato fin da piccolissimo grazie alla cucina. Una cucina che è cresciuta nel tempo, che mi ha portato a diventare Esecutive Chef al “Il lusso della semplicità“, a Milano e che ora mi trascina in un nuovo progetto, il mio. Per me, non esiste un concetto unico di cucina: le culture, gli ingredienti e i sapori si mescolano e si mettono in discussione, dando vita, per ogni piatto, a qualcosa di unico ma soprattutto, di gustoso."
-        }
-    ],
+	"contactPage": [
+		{
+			"id": 0,
+			"heading": "Nabucco ti aspetta, contattaci",
+			"paragraphOne": "Lungotevere Flaminio, 57, 00196, Roma \n \n Aperto a cena dalle ore 20:00",
+			"tel": "063610097",
+			"form": "Altrimenti compila il form, sarai ricontattato entro 48h"
+		}
+	],
+	"menuPage": [
+		{
+			"id": 0,
+			"heading": "Vi presentiamo il nostro menù",
+			"paragraphOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu"
+		}
+	],
+	"contactUsHome": [
+		{
+			"id": 0,
+			"title": "Dove siamo?",
+			"subtitle": "Lungotevere Flaminio, 57 - 000196 - Roma \n \nAperti a cena dalle ore 20:00",
+			"path": "/contatti",
+			"label": "Contattaci"
+		}
+	],
 
-    "executivePage": [
-        {
-            "id": 0,
-            "heading": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?",
-            "paragraphOne": "Nabucco è pronto ad accogliervi, contattaci e scegliamo insieme la tua ala della sala preferita. Opta per il secondo piano per un evento intimo ed esclusivo, o per la grande sala per invitare tutti i tuoi amici. \n \n Compila il form, sarai ricontattato entro 48 ore."
-        }
-    ],
+	"listingsHeader": "Nabucco è la sua selezione di carne",
+	"menuOne": "Sfoglia il menù",
+	"labelMenuOne": "Non solo carne",
+	"menuTwo": "i nostri vini",
+	"labelMenuTwo": "Scegli il tuo",
+	"aboutHeading": "La nostra filosofia",
+	"restaurantHeading": "Le nostre radici",
+	"executiveHeading": "Nabucco per la tua cena importante",
+	"contactHeading": "Contatti",
+	"menuHeading": "Menù",
+	"popUpHeading": "Vieni alla nostra inaugurazione",
+	"popUpSubtitle": "Brinda con noi il 13 dicembre a Roma",
+	"popUpButton": "Vienici a trovare",
 
-    "contactPage": [
-        {
-            "id": 0,
-            "heading": "Nabucco ti aspetta, contattaci",
-            "paragraphOne": "Lungotevere Flaminio, 57, 00196, Roma \n \n Aperto a cena dalle ore 20:00",
-            "tel": "063610097",
-            "form": "Altrimenti compila il form, sarai ricontattato entro 48h"
-        }
-    ],
-    "contactUsHome": [
-        {
-            "id": 0,
-            "title": "Dove siamo?",
-            "subtitle": "Lungotevere Flaminio, 57 - 000196 - Roma \n \nAperti a cena dalle ore 20:00",
-            "path": "/contatti",
-            "label": "Contattaci"
-        }
-    ],
-    
+	"menu": [
+		{
+			"id": 1,
+			"title": "tartare di manzo",
+			"category": "antipasti",
+			"price": 15.99,
+			"desc": "Battuta di manzo danese, gel di tuorlo, senape antica e salsa al prezzemolo"
+		},
+		{
+			"id": 2,
+			"title": "carpaccio di bufalo",
+			"category": "antipasti",
+			"price": 15.99,
+			"desc": "Bufalo, capperi fritti, nasturzio, limone fermentato, mayo alla soia e polvere di cavolo nero"
+		},
+		{
+			"id": 3,
+			"title": "assoluto di barbabietola",
+			"category": "antipasti",
+			"price": 15.99,
+			"desc": "Traformazione di barbabietola in più consistenze"
+		},
+		{
+			"id": 4,
+			"title": "taco di maiale asiatico",
+			"category": "antipasti",
+			"price": 15.99,
+			"desc": "Taco di farina fioretto, pancia di maiale con marinata asiatica, cavolo cappuccio croccante e dressing al sesamo"
+		},
+		{
+			"id": 5,
+			"title": "fishcake di baccalà",
+			"category": "antipasti",
+			"price": 15.99,
+			"desc": "Baccalà portoghese, patate, humus di ceci, salsa verde e croccante al riso"
+		},
+		{
+			"id": 6,
+			"title": "petto e coscia di galletto",
+			"category": "secondi",
+			"price": 15.99,
+			"desc": "Petto di galletto CBT, coscia croccante fritta, purè al burro salato e fondo di galletto"
+		},
+		{
+			"id": 7,
+			"title": "filetto di melanzana",
+			"category": "secondi",
+			"price": 15.99,
+			"desc": "Melanzana, cicoria ripassata e patate novelle"
+		},
+		{
+			"id": 8,
+			"title": "pluma iberica 100% bellotta",
+			"category": "secondi",
+			"price": 15.99,
+			"desc": "Pluma iberica CBT, rape grigliate, ristretto di maiale, mais liquido e crema di arachidi salati"
+		},
+		{
+			"id": 9,
+			"title": "anatra",
+			"category": "secondi",
+			"price": 15.99,
+			"desc": "Anatra laccata, melanzane perlina, chutney di arancia amara e asparago bianco baby"
+		},
+		{
+			"id": 10,
+			"title": "tuna",
+			"category": "secondi",
+			"price": 15.99,
+			"desc": "Tonno scottato, mele renette arrosto, cipollotto affumicato e dressing acido all'olio di sesamo"
+		},
+		{
+			"id": 11,
+			"title": "selezione di insalate verdi di stagione",
+			"category": "insalate",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 12,
+			"title": "insalata di salmone marinato agli agrumi e valeriana",
+			"category": "insalate",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 13,
+			"title": "insalata di spinaci, mandorle, melanzane infornate, olive greche",
+			"category": "insalate",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 14,
+			"title": "purè di patate",
+			"category": "contorni",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 15,
+			"title": "broccoletti",
+			"category": "contorni",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 16,
+			"title": "cicoria",
+			"category": "contorni",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 17,
+			"title": "il nostro tiramisù",
+			"category": "dessert",
+			"price": 15.99,
+			"desc": "Caffè espresso caldo, crema al mascarpone e savoiardi"
+		},
+		{
+			"id": 18,
+			"title": "cremoso al cioccolato bianco",
+			"category": "dessert",
+			"price": 15.99,
+			"desc": "Cioccolato bianco, crumble di mais, chutney di mango, mostarda di arance e meringhe"
+		},
+		{
+			"id": 19,
+			"title": "spuma di yogurt",
+			"category": "dessert",
+			"price": 15.99,
+			"desc": "Yogurt, caramello, pere marinate e crumble al cioccolato e mandorle"
+		},
+		{
+			"id": 20,
+			"title": "rice pudding",
+			"category": "dessert",
+			"price": 15.99,
+			"desc": "Riso, latte, basilico, limone fermentato e salsa alla Piña Colada"
+		},
+		{
+			"id": 21,
+			"title": "lemon tarte",
+			"category": "dessert",
+			"price": 15.99,
+			"desc": "Frolla, crema al limone e meringa al cannello"
+		},
+		{
+			"id": 22,
+			"title": "fiorentina di chianina",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 23,
+			"title": "costata di chianina",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 24,
+			"title": "t-bone black angus USA",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 25,
+			"title": "costata black angus USA",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 26,
+			"title": "T-bone black angus irlanda",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 27,
+			"title": "costata black angus irlanda",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 28,
+			"title": "filetto di manzo danese",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 29,
+			"title": "picanha black angus affumicata home made",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 30,
+			"title": "costine alla texana C.B.T.",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 31,
+			"title": "diaframma marinato black angus",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		},
+		{
+			"id": 32,
+			"title": "tomahawk irlanda",
+			"category": "griglia",
+			"price": 15.99,
+			"desc": ""
+		}
+	],
 
-
-    "listingsHeader": "Nabucco è la sua selezione di carne",
-    "menuOne" : "Sfoglia il menù",
-    "labelMenuOne": "Non solo carne",
-    "menuTwo" : "i nostri vini",
-    "labelMenuTwo": "Scegli il tuo",
-    "aboutHeading" : "La nostra filosofia",
-    "restaurantHeading" : "Le nostre radici",
-    "executiveHeading" : "Nabucco per la tua cena importante",
-    "contactHeading" : "Contatti",
-    "popUpHeading" : "Vieni alla nostra inaugurazione",
-    "popUpSubtitle" : "Brinda con noi il 13 dicembre a Roma",
-    "popUpButton" : "Vienici a trovare"
- 
+	"menuCategories": [
+		{ "id": 0, "title": "antipasti" },
+		{ "id": 1, "title": "secondi" },
+		{ "id": 2, "title": "insalate" },
+		{ "id": 3, "title": "contorni" },
+		{ "id": 4, "title": "dessert" },
+		{ "id": 5, "title": "griglia" }
+	]
 }

@@ -46,20 +46,21 @@ const HeroContent = styled.div`
 	width: calc(100% - 100px);
 	color: #fff;
 
-	h1 {
-		font-size: clamp(3rem, 8vw, 2rem);
-		font-weight: 400;
-		text-transform: uppercase;
-		text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-		text-align: center;
-		margin-bottom: 0.8rem;
-		background-color: #000;
-		padding: 1rem;
-		font-family: 'Cormorant Garamond', serif;
-		@media screen and (max-width: 768px) {
-			font-size: 4vh; 
-		margin-top: 60px;   }
-	}
+		h1 {
+			font-size: clamp(3rem, 8vw, 2rem);
+			font-weight: 400;
+			text-transform: uppercase;
+			text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+			text-align: center;
+			margin-bottom: 0.8rem;
+			background-color: #000;
+			padding: 1rem;
+			font-family: 'Cormorant Garamond', serif;
+			@media screen and (max-width: 768px) {
+				font-size: 4vh; 
+				margin-top: 60px;   
+			}
+		}
 	}
 `;
 
