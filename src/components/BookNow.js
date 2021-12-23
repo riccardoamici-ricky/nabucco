@@ -21,7 +21,7 @@ export const BookNow = styled(Link)`
     position: fixed;
     bottom: 50px;
     right: 50px;
-    z-index: 9999;
+    z-index: 99;
 
     &:hover{
         transform: translateY(-2px);
