@@ -94,7 +94,7 @@ const HeroContent = styled.div`
 `;
 
 const Arrow = styled(IoMdArrowRoundForward)`
-margin-left: 2.5rem`;
+margin-left: 0.5rem`;
 const arrowButtons = css`
 	width: 50px;
 	height: 50px;
