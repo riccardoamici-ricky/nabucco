@@ -11,7 +11,7 @@ const Executive = () => {
     return (
         <>
            <PagesHero image={ImageExecutive} heading={t('executiveHeading')} /> 
-           <PagesBody source={'executivePage'} form={true} secondImage={true} double={true} executive={true} secondImage={PianoTerra} thirdImage={PianoSuperiore}/>
+           <PagesBody source={'executivePage'} form={true} double={true} executive={true} secondImage={PianoTerra} thirdImage={PianoSuperiore}/>
         </>
     )
 }

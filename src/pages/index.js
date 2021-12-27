@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Features from '../components/Features'
 import Hero from '../components/Hero'
 import InfoSection from '../components/InfoSection'
-import Listings from '../components/Listings'
 import PopUp from '../components/PopUp'
 import ImageOne from '../images/square-restaurant.png';
 import ImageTwo from '../images/vino.jpg';
