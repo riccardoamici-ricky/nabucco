@@ -141,7 +141,7 @@ const Navbar = ({ toggle }) => {
 			<MenuBars onClick={toggle} />
 			<NavMenu>
 				{i18next.t('menuData', { returnObjects: true }).map((item) => (
-					<NavMenuLinks to={t(item.link)} key={item.id} target={item.id === 3 ? '_blank' : ''}>
+					<NavMenuLinks to={t(item.link)} key={item.id} target={item.id === 3 || item.id === 2 ? '_blank' : '_self'}>
 						{t(item.title)}
 					</NavMenuLinks>
 				))}

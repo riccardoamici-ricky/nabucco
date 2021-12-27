@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <>
            <PagesHero image={ImageContact} heading={t('contactHeading')}/> 
-           <PagesBody source={'contactPage'} form={true} map={true} nabucco={true}/>
+           <PagesBody source={'contactPage'} map={true} nabucco={true}/>
         </>
     )
 }

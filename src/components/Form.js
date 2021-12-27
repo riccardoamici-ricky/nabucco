@@ -6,8 +6,7 @@ const Container = styled.div`
 	height: 100%;
 	width: 100%;
 
-	input,
-	select {
+	input {
 		width: 100%;
 		padding: 12px 20px;
 		margin: 8px 0;
@@ -25,9 +24,6 @@ const Container = styled.div`
 		outline: none;
 	}
 
-	select:focus {
-		outline: none;
-	}
 
 	textarea:focus {
 		outline: none;
@@ -61,25 +57,6 @@ const Form = ({ nabucco }) => {
 					{...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
 				/>
 				<input type="tel" placeholder="Telefono" {...register('Telefono', { required: true, maxLength: 15 })} />
-				{nabucco ? (
-					<select name="piano" id="0" form="piano" {...register('Piano', { required: false })}>
-						<option value="piano-terra">Piano Terra</option>
-						<option value="piano-superiore">Piano Superiore</option>
-					</select>
-				) : (
-					<select
-						name="tipo-evento"
-						id="0"
-						form="tipo-evento"
-						{...register('Tipo Evento', { required: false })}
-					>
-						<option value="piano-terra">Comunione</option>
-						<option value="piano-superiore">Matrimonio</option>
-						<option value="piano-superiore">Compleanno</option>
-						<option value="piano-superiore">Laurea</option>
-						<option value="piano-superiore">Altro (specifica nel messaggio)</option>
-					</select>
-				)}
 				<textarea type="text" placeholder="Messaggio" cols="40" rows="5" {...register('Messaggio', {})} />
 				<input type="hidden" name="_next" value="https://www.youtube.com/watch?v=qFJvQii2QRw" />
 				<input type="hidden" name="_captcha" value="false" />

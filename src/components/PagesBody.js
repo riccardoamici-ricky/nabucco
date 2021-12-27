@@ -45,7 +45,7 @@ const Container = styled.div`
 	}
 `;
 
-const PagesBody = ({ image, source, secondImage, double, form, map, nabucco }) => {
+const PagesBody = ({ image, source, secondImage, thirdImage, double, executive, form, map, nabucco }) => {
 	const { t } = useTranslation();
 
 	return (
@@ -57,12 +57,14 @@ const PagesBody = ({ image, source, secondImage, double, form, map, nabucco }) =
 					{map ? <a href="tel:+39063610097">{t(data.tel)}</a> : null}
 					{map ? <Map /> : null}
 					{map ? <h1>{t(data.form)}</h1> : null}
-					{form ? <Form nabucco={map ? true : false} /> : null}
 					<img src={image ? image : null} alt={t(data.altImg ? data.altImg : null)} />
-					<p>{t(data.paragraphTwo ? data.paragraphTwo : null)}</p>
 					{secondImage ? <img src={secondImage} alt={t(data.altSecondImg)} /> : null}
-					{double ? <h1 style={{ marginTop: 50 }}>{t(data.secondHeading)}</h1> : null}
-					{double ? <p>{t(data.secondParagraphOne)}</p> : null}
+					{double ? <h1 style={{ marginTop: 50 }}>{t(data.headingTwo)}</h1> : null}
+					{double ? <p>{t(data.paragraphTwo)}</p> : null}
+					{executive ? <img src={thirdImage} alt={t(data.altSecondImg)} /> : null}
+					{executive ? <h1 style={{ marginTop: 50 }}>{t(data.headingThree)}</h1> : null}
+					{executive ? <p>{t(data.paragraphThree)}</p> : null}
+					{form ? <Form nabucco={map ? true : false} /> : null}
 				</Container>
 			))}
 		</Section>

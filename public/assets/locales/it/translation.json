@@ -1,9 +1,9 @@
 {
 	"menuData": [
-		{ "id": 0, "title": "Chi siamo", "link": "/ristorante-nabucco" },
-		{ "id": 1, "title": "Come lo facciamo", "link": "/filosofia" },
-		{ "id": 2, "title": "Menù", "link": "/menu" },
-		{ "id": 3, "title": "Vini", "link": "http://www.keepandshare.com/doc5/view.php?id=30517&da=y" },
+		{ "id": 0, "title": "Chi siamo", "link": "/ristorante-tanagra" },
+		{ "id": 1, "title": "La nostra filosofia", "link": "/filosofia" },
+		{ "id": 2, "title": "Menù", "link": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y" },
+		{ "id": 3, "title": "Vini", "link": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y" },
 		{ "id": 4, "title": "Dove siamo", "link": "/contatti" },
 		{ "id": 5, "title": "Prenota", "link": "/contatti" },
 		{ "id": 6, "title": "Eventi", "link": "/eventi" }
@@ -12,11 +12,11 @@
 	"sliderData": [
 		{
 			"id": 0,
-			"title": "Nabucco è la sua selezione di carne",
-			"subtitle": "Non proponiamo primi, toglierebbero il giusto spazio per assaporarla.",
-			"path": "/menu",
-			"label": "Scopri il menù",
-			"alt": "Nabucco"
+			"title": "",
+			"subtitle": "",
+			"path": "",
+			"label": "",
+			"alt": ""
 		},
 		{
 			"id": 1,
@@ -47,10 +47,10 @@
 	"firstInfoData": [
 		{
 			"id": 0,
-			"title": "Scopri la storia di Nabucco, nel cuore di Roma",
-			"subtitle": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità.",
+			"title": "Scopri la storia di Tanagra, nel cuore di Roma",
+			"subtitle": "La storia di Tanagra ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità.",
 			"second_subtitle": "Dal 1997 ad oggi in continua evoluzione, rimanendo però saldo alla qualità e ai valori che da sempre lo hanno contraddistinto.",
-			"path": "/ristorante-nabucco",
+			"path": "/ristorante-tanagra",
 			"label": "Le nostre radici"
 		}
 	],
@@ -58,10 +58,10 @@
 	"secondInfoData": [
 		{
 			"id": 0,
-			"title": "\"Dopo una vita accanto a Borghese, torno a casa e vi presento la mia cucina\"",
-			"subtitle": "A parlare è Carlo Gentili, ex Executive Chef al \"Lusso della semplicità\" a Milano che ora si imbarca in un progetto tutto suo: Nabucco.",
-			"second_subtitle": "Culture, ingredienti e sapori si mescolano e si mettono in discussione, dando vita a qualcosa di unico e gustoso.",
-			"path": "/ristorante-nabucco",
+			"title": "Carlo Gentili, lo chef",
+			"subtitle": "\"Dopo una vita accanto a Borghese, torno a casa e vi presento la mia cucina. Dopo 20 anni di esperienza accanto ad Alessandro Borghese, è tempo di tornare a casa, qui dove tutto, per me, è cominciato. La mia è stata una gavetta tutta romana, il territorio l’ho esplorato, conosciuto ed assaporato fin da piccolissimo grazie alla cucina. Una cucina che è cresciuta nel tempo, che mi ha portato a diventare Esecutive Chef al “Il lusso della semplicità“, a Milano e che ora mi trascina in un nuovo progetto, il mio. Per me, non esiste un concetto unico di cucina: le culture, gli ingredienti e i sapori si mescolano e si mettono in discussione, dando vita, per ogni piatto, a qualcosa di unico ma soprattutto, di gustoso.\"",
+			"second_subtitle": " A parlare è Carlo Gentili, ex Executive Chef al \"Lusso della semplicità\" a Milano che ora si imbarca in un progetto tutto suo: Tanagra.",
+			"path": "/ristorante-tanagra",
 			"label": "Scopri di più"
 		}
 	],
@@ -70,7 +70,7 @@
 		{
 			"id": 0,
 			"title": "Riserva lo spazio per il tuo evento",
-			"subtitle": "Lascia che Nabucco sia il ristorante per la tua cena aziendale o per il tuo giorno speciale.",
+			"subtitle": "Lascia che Tanagra sia il ristorante per la tua cena aziendale o per il tuo giorno speciale.",
 			"path": "/executive",
 			"label": "Voglio sapere di più"
 		}
@@ -87,25 +87,44 @@
 		}
 	],
 
+	"menuInfoData": [
+		{
+			"id": 5,
+			"title": "Vi presentiamo il nostro menu",
+			"subtitle": "Un buon piatto si identifica nelle materie prime che si utilizzano per realizzarlo, insieme con la maestria delle mani e le teste che lo hanno concepito. La nostra cucina è fiera di presentarvi il menù della stagione: per ogni portata, un ingrediente principale intorno al quale ruotano gli altri,  per creare contrasti, bilanciare sapori, valorizzare gli aromi.",
+			"second_subtitle": "È così che nasce la magia, fatti tentare.",
+			"path": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y",
+			"label": "Sfoglia il menù"
+		}
+	],
+
+	"wineInfoData": [
+		{
+			"id": 5,
+			"title": "La nostra proposta dei vini",
+			"subtitle": "Grazie alla  passione e all’esperienza rivolta al mondo enologico, abbiamo selezionato e definito la nostra Carta dei Vini. Etichette che riescono a seguire fedelmente il mood caratterizzante del Team del Tanagra: una scelta di oltre 100 etichette di vini selezionati con cura, che ripercorrono le migliori cantine italiane ed estere, con un focus mirato verso il territorio e alcune chicche ricercate.",
+			"second_subtitle": "La nostra Carta dei Vini si presenta così: tradizionale ma allo stesso tempo dinamica, attenta alle novità presenti sul mercato e segnata da un aggiornamento continuo. Lasciatevi guidare dal nostro staff preparatissimo.",
+			"path": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y",
+			"label": "Scopri le nostre etichette"
+		}
+	],
+	
 	"aboutPage": [
 		{
 			"id": 0,
 			"heading": "Materie prime di qualità e atmosfera magica. Questo è il binomio sul quale abbiamo costruito lo spirito del nostro ristorante.",
 			"paragraphOne": "Un piatto buono si identifica nelle materie prime che si utilizzano per realizzarlo. Noi non studiamo solo da dove provengono. Noi conosciamo chi le produce. E come lo fa. La ricerca di tutto quello che entra nella nostra cucina è accurata, maniacale, tracciabile. Non scendiamo a compromessi, per far sì che ciò che esca dalla cucina sia gustoso, appagante, impeccabile.",
 			"paragraphTwo": "Il progetto è studiato nei minimi dettagli, Abbiamo studiato un menù che esalti la tradizione italiana, senza rimanerne ancorati, esplorando e giocando con l’innovazione, sfidando le regole. Crediamo che, in questo periodo, non sia necessario mangiare più carne, ma mangiarla meglio, consapevolmente. Puntiamo per questo a un cliente consapevole, che possa leggere e tracciare quello che arriva al suo tavolo, sul suo piatto. Tramite un QR code aggiornato costantemente, la qualità diventa palpabile, si tocca con mano, si legge con gli occhi, ancora prima che col palato.",
-			"altImg": "Ristorante carne roma Nabucco"
+			"altImg": "Ristorante carne roma Tanagra"
 		}
 	],
 
 	"restaurantPage": [
 		{
 			"id": 0,
-			"heading": "Scopri la storia di Nabucco, nel cuore di Roma.",
-			"paragraphOne": "La storia di Nabucco ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità. Quella che oggi ospita il nostro ristorante fu una fabbrica di ceramiche artigianali, un laboratorio famoso in tutto il mondo che prendeva il nome di Tanagra, in onore della città greca dove furono ritrovate le prime ceramiche colorate, le Tanagrine, appunto. Ed è proprio il nome Tanagra ad essere stato ripreso dal nostro ristorante, che nel 1997 ha aperto per la prima volta le sue porte e che per 24 anni ha accolto e deliziato i palati di molti. \n \n Oggi Tanagra cambia nome e diventa Nabucco, pronto più che mai a rinnovarsi e ad aprire nuove strade, concentrandosi su un menù di carne, moderno e contemporaneo, senza rinunciare alla qualità e i valori che lo hanno sempre contrassegnato.",
-			"paragraphTwo": "Non siamo matricole del mondo della ristorazione. Non siamo novellini che si affacciano incucina emozionati per la loro prima esperienza. Non pensiamo alle serate spaventati, inconsapevoli di cosa ci aspetta. Siamo chi il ristorante lo ha fatto, il territorio lo conosce da anni, sulla cucina ha già le idee chiare. Siamo qui per mostrarvele. \n \n Nella cucina, si muovono le mani di un team che collabora insieme, uniti dalla passione e la cura per il buon cibo. Bollono le stesse idee e la stessa arte culinaria, concentrata sull’artigianalità, sulla stagionalità, sul gusto.",
-			"altSecondImg": "Lo chef",
-			"secondHeading": "Carlo Gentili, lo chef",
-			"secondParagraphOne": "Dopo 20 anni di esperienza accanto ad Alessandro Borghese, è tempo di tornare a casa, qui dove tutto, per me, è cominciato. La mia è stata una gavetta tutta romana, il territorio l’ho esplorato, conosciuto ed assaporato fin da piccolissimo grazie alla cucina. Una cucina che è cresciuta nel tempo, che mi ha portato a diventare Esecutive Chef al “Il lusso della semplicità“, a Milano e che ora mi trascina in un nuovo progetto, il mio. Per me, non esiste un concetto unico di cucina: le culture, gli ingredienti e i sapori si mescolano e si mettono in discussione, dando vita, per ogni piatto, a qualcosa di unico ma soprattutto, di gustoso."
+			"heading": "Scopri la storia di Tanagra, nel cuore di Roma.",
+			"paragraphOne": "La storia di Tanagra ha radici antiche e profonde, che parlano di un luogo che ha saputo cambiare, negli anni, molte vesti, mantenendo sempre la sua maestosità. Quella che oggi ospita il nostro ristorante fu una fabbrica di ceramiche artigianali, un laboratorio famoso in tutto il mondo che prendeva il nome di Tanagra, in onore della città greca dove furono ritrovate le prime ceramiche colorate, le Tanagrine, appunto. Ed è proprio il nome Tanagra ad essere stato ripreso dal nostro ristorante, che nel 1997 ha aperto per la prima volta le sue porte e che per 24 anni ha accolto e deliziato i palati di molti. \n \n Oggi Tanagra cambia nome e diventa Tanagra, pronto più che mai a rinnovarsi e ad aprire nuove strade, concentrandosi su un menù di carne, moderno e contemporaneo, senza rinunciare alla qualità e i valori che lo hanno sempre contrassegnato.",
+			"paragraphTwo": "Non siamo matricole del mondo della ristorazione. Non siamo novellini che si affacciano incucina emozionati per la loro prima esperienza. Non pensiamo alle serate spaventati, inconsapevoli di cosa ci aspetta. Siamo chi il ristorante lo ha fatto, il territorio lo conosce da anni, sulla cucina ha già le idee chiare. Siamo qui per mostrarvele. \n \n Nella cucina, si muovono le mani di un team che collabora insieme, uniti dalla passione e la cura per il buon cibo. Bollono le stesse idee e la stessa arte culinaria, concentrata sull’artigianalità, sulla stagionalità, sul gusto."
 		}
 	],
 
@@ -113,17 +132,21 @@
 		{
 			"id": 0,
 			"heading": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?",
-			"paragraphOne": "Nabucco è pronto ad accogliervi, contattaci e scegliamo insieme la tua ala della sala preferita. Opta per il secondo piano per un evento intimo ed esclusivo, o per la grande sala per invitare tutti i tuoi amici. \n \n Compila il form, sarai ricontattato entro 48 ore."
+			"headingTwo": "Piano terra",
+			"headingThree": "Piano superiore",
+			"paragraphOne": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?\nTanagra ti accoglie nella sua cornice magica, scegli l’ala del ristorante che fa più al caso tuo.",
+			"paragraphTwo": "Una sala ampia e maestosa è pronta ad ospitare il tuo evento.\nTutta, la metà, o una parte: contattaci per prenotare lo spazio adatto.",
+			"paragraphThree": "Ambiente intimo ed accogliente, perfetto per cene private o eventi aziendali.\nDecidiamo insieme la disposizione dei tavoli, l’atmosfera della serata la scegli tu."
 		}
 	],
 
 	"contactPage": [
 		{
 			"id": 0,
-			"heading": "Nabucco ti aspetta, contattaci",
-			"paragraphOne": "Lungotevere Flaminio, 57, 00196, Roma \n \n Aperto a cena dalle ore 20:00",
-			"tel": "063610097",
-			"form": "Altrimenti compila il form, sarai ricontattato entro 48h"
+			"heading": "Tanagra ti aspetta, contattaci",
+			"paragraphOne": "Lungotevere Flaminio, 57 \n 00196, Roma ",
+			"tel": "+39 063610097",
+			"form": ""
 		}
 	],
 	"menuPage": [
@@ -137,20 +160,20 @@
 		{
 			"id": 0,
 			"title": "Dove siamo?",
-			"subtitle": "Lungotevere Flaminio, 57 - 000196 - Roma \n \nAperti a cena dalle ore 20:00",
+			"subtitle": "Lungotevere Flaminio, 57 \n 000196 - Roma",
 			"path": "/contatti",
 			"label": "Contattaci"
 		}
 	],
 
-	"listingsHeader": "Nabucco è la sua selezione di carne",
+	"listingsHeader": "Tanagra è la sua selezione di carne",
 	"menuOne": "Sfoglia il menù",
 	"labelMenuOne": "Non solo carne",
 	"menuTwo": "i nostri vini",
 	"labelMenuTwo": "Scegli il tuo",
 	"aboutHeading": "La nostra filosofia",
 	"restaurantHeading": "Le nostre radici",
-	"executiveHeading": "Nabucco per la tua cena importante",
+	"executiveHeading": "Tanagra per la tua cena importante",
 	"contactHeading": "Contatti",
 	"menuHeading": "Menù",
 	"popUpHeading": "Vieni alla nostra inaugurazione",

@@ -7,7 +7,7 @@ import { default as i18next } from 'i18next';
 const Section = styled.section`
 	width: 100%;
 	height: 100%;
-	padding: 4rem 0rem;
+	// padding: 4rem 0rem;
 	background-color: #fff;
 `;
 
@@ -16,6 +16,7 @@ const Container = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 800px;
+	margin-top: -170px;
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
@@ -83,7 +84,7 @@ const InfoSection = ({ image, reverse, source }) => {
 						<h1>{t(data.title)}</h1>
 						<p>{t(data.subtitle)}</p>
 						<p>{t(data.second_subtitle)}</p>
-						<Button to={t(data.path)} primary="true">
+						<Button to={t(data.path)} primary="true" target={data.id === 5 ? '_blank' : ''}>
 							{t(data.label)}
 						</Button>
 					</ColumnLeft>

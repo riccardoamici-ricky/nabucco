@@ -16,6 +16,7 @@ const HeroSection = styled.section`
 	max-height: 2200px;
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 170px;
 `;
 
 const HeroWrapper = styled.div`

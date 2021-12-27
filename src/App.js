@@ -41,7 +41,7 @@ function App() {
         <Route path="/executive" element={ <Executive />} />
         <Route path="/filosofia" element={ <About />} />
         <Route path="/contatti" element={ <Contact />} />
-        <Route path="/ristorante-nabucco" element={ <Restaurant />} />
+        <Route path="/ristorante-tanagra" element={ <Restaurant />} />
         <Route path="/eventi" element={ <Executive />} />
         <Route path="/menu" element={ <Menu />} />
       </Routes>

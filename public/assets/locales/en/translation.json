@@ -2,8 +2,8 @@
 	"menuData": [
 		{ "id": 0, "title": "Who are we", "link": "/restaurant" },
 		{ "id": 1, "title": "How we do it", "link": "/about" },
-		{ "id": 2, "title": "Menu", "link": "/menu" },
-		{ "id": 3, "title": "Wines", "link": "http://www.keepandshare.com/doc5/view.php?id=30517&da=y" },
+		{ "id": 2, "title": "Menu", "link": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y" },
+		{ "id": 3, "title": "Wines", "link": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y" },
 		{ "id": 4, "title": "Where we are", "link": "/contact" },
 		{ "id": 5, "title": "Book", "link": "/contact" },
 		{ "id": 6, "title": "Events", "link": "/executive" }
@@ -12,11 +12,11 @@
 	"sliderData": [
 		{
 			"id": 0,
-			"title": "Nabucco is its selection of meat",
-			"subtitle": "We don't cook pasta, the main spotlight is on the meat.",
-			"path": "/menu",
-			"label": "Discover the menu",
-			"alt": "Nabucco"
+			"title": "",
+			"subtitle": "",
+			"path": "",
+			"label": "",
+			"alt": ""
 		},
 		{
 			"id": 1,
@@ -47,8 +47,8 @@
 	"firstInfoData": [
 		{
 			"id": 0,
-			"title": "Discover Nabucco's history, in the heart of Rome",
-			"subtitle": "The history of Nabucco has ancient and deep roots, our restaurant is on a place that has been able to change many garments over the years, always maintaining its majesty.",
+			"title": "Discover Tanagra's history, in the heart of Rome",
+			"subtitle": "The history of Tanagra has ancient and deep roots, our restaurant is on a place that has been able to change many garments over the years, always maintaining its majesty.",
 			"second_subtitle": "Constantly evolving since 1997, while remaining steadfast to the quality and values that have always distinguished it.",
 			"path": "/restaurant",
 			"label": "Our roots"
@@ -58,9 +58,9 @@
 	"secondInfoData": [
 		{
 			"id": 0,
-			"title": "\"After Borghese, I come home and show you my kitchen\"",
-			"subtitle": "Carlo, former executive Chef at \"Lusso della semplicità\" in Milan who is now embarking on a project of his own: Nabucco.",
-			"second_subtitle": "Cultures, ingredients and flavors mix and question each other, giving life to something unique and tasty.",
+			"title": "Executive Chef",
+			"subtitle": "\"After Borghese, I come home and show you my kitchen. After 20 years of experience alongside Alessandro Borghese, it’s time to go home, where it all began for me. Mine was an entirely Roman apprenticeship, I explored, known and tasted the territory from an early age thanks to the kitchen. A cuisine that has grown over time, which has led me to become Executive Chef at “The luxury of simplicity”, in Milan and which now draws me into a new project, mine. For me, there is no single concept of cuisine: cultures, ingredients and flavors mix and question each other, giving life, for each dish, to something unique but above all, tasty.\"",
+			"second_subtitle": "Carlo, former executive Chef at \"Lusso della semplicità\" in Milan who is now embarking on a project of his own: Tanagra.",
 			"path": "/restaurant",
 			"label": "Discover more"
 		}
@@ -70,7 +70,7 @@
 		{
 			"id": 0,
 			"title": "Reserve a space for your event",
-			"subtitle": "Let Nabucco be the restaurant for your corporate dinner or your special day.",
+			"subtitle": "Let Tanagra be the restaurant for your corporate dinner or your special day.",
 			"path": "/executive",
 			"label": "I wanna know more"
 		}
@@ -83,6 +83,28 @@
 			"subtitle": "Not only we study where our food comes from, we know who makes it. And how they work. The search for everything that enters our kitchen is accurate, maniacal, traceable.",
 			"second_subtitle": "We do not compromise, to ensure that what comes out of the kitchen is tasty, satisfying, flawless.",
 			"path": "/about",
+			"label": "Get to know us"
+		}
+	],
+
+    "menuInfoData": [
+		{
+			"id": 5,
+			"title": "A good dish is identified in the ingredients that are used to make it",
+			"subtitle": "Not only we study where our food comes from, we know who makes it. And how they work. The search for everything that enters our kitchen is accurate, maniacal, traceable.",
+			"second_subtitle": "We do not compromise, to ensure that what comes out of the kitchen is tasty, satisfying, flawless.",
+			"path": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y",
+			"label": "Get to know us"
+		}
+	],
+    
+    "wineInfoData": [
+		{
+			"id": 5,
+			"title": "A good dish is identified in the ingredients that are used to make it",
+			"subtitle": "Not only we study where our food comes from, we know who makes it. And how they work. The search for everything that enters our kitchen is accurate, maniacal, traceable.",
+			"second_subtitle": "We do not compromise, to ensure that what comes out of the kitchen is tasty, satisfying, flawless.",
+			"path": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y",
 			"label": "Get to know us"
 		}
 	],
@@ -100,27 +122,28 @@
 	"restaurantPage": [
 		{
 			"id": 0,
-			"heading": "Disocver Nabucco's History, in the heart of Rome",
-			"paragraphOne": "The history of Nabucco has ancient and deep roots. Ours is a place that has been able to change many garments over the years, always maintaining its majesty. What today houses our restaurant was a handcrafted ceramic factory, a world-famous laboratory that took the name of Tanagra, in honor of the Greek city where the first colored ceramics were found, the Tanagrine, in fact. And it is precisely the name Tanagra that has been taken up by our restaurant, which opened its doors for the first time in 1997 and which for 24 years has welcomed and delighted the palates of many. \n \n Today Tanagra changes its name and becomes Nabucco, more than ever ready to renew itself and to open new paths, focusing on a modern and contemporary meat menu, without sacrificing the quality and values ​​that have always marked it.",
-			"paragraphTwo": "We are not newcomers in the restaurant world. We are not newbies who enter the kitchen excited about their first experience. We do not think about frightened evenings, unaware of what awaits us. We are those who made the restaurant, the territory has known for years, already has clear ideas about the kitchen. We are here to show you. \n \n In the kitchen, the hands of a team work together, united by the passion and care for good food. The same ideas and the same culinary art boil, focused on craftsmanship, seasonality, taste.",
-			"altSecondImg": "Our chef",
-			"secondHeading": "Carlo Gentili, chef",
-			"secondParagraphOne": "After 20 years of experience alongside Alessandro Borghese, it’s time to go home, where it all began for me. Mine was an entirely Roman apprenticeship, I explored, known and tasted the territory from an early age thanks to the kitchen. A cuisine that has grown over time, which has led me to become Executive Chef at “The luxury of simplicity”, in Milan and which now draws me into a new project, mine. For me, there is no single concept of cuisine: cultures, ingredients and flavors mix and question each other, giving life, for each dish, to something unique but above all, tasty."
+			"heading": "Disocver Tanagra's History, in the heart of Rome",
+			"paragraphOne": "The history of Tanagra has ancient and deep roots. Ours is a place that has been able to change many garments over the years, always maintaining its majesty. What today houses our restaurant was a handcrafted ceramic factory, a world-famous laboratory that took the name of Tanagra, in honor of the Greek city where the first colored ceramics were found, the Tanagrine, in fact. And it is precisely the name Tanagra that has been taken up by our restaurant, which opened its doors for the first time in 1997 and which for 24 years has welcomed and delighted the palates of many. \n \n Today Tanagra changes its name and becomes Tanagra, more than ever ready to renew itself and to open new paths, focusing on a modern and contemporary meat menu, without sacrificing the quality and values ​​that have always marked it.",
+			"paragraphTwo": "We are not newcomers in the restaurant world. We are not newbies who enter the kitchen excited about their first experience. We do not think about frightened evenings, unaware of what awaits us. We are those who made the restaurant, the territory has known for years, already has clear ideas about the kitchen. We are here to show you. \n \n In the kitchen, the hands of a team work together, united by the passion and care for good food. The same ideas and the same culinary art boil, focused on craftsmanship, seasonality, taste."
 		}
 	],
 
 	"executivePage": [
 		{
 			"id": 0,
-			"heading": "Would you like a space reserved for your company dinner or a special birthday?",
-			"paragraphOne": "Nabucco is ready to greet you, fill out the form and we will get back to you in 48h with our best option."
+			"heading": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?",
+			"headingTwo": "Piano terra",
+			"headingThree": "Piano superiore",
+			"paragraphOne": "Vorresti uno spazio riservato per la tua cena aziendale o un compleanno speciale?\nTanagra ti accoglie nella sua cornice magica, scegli l’ala del ristorante che fa più al caso tuo.",
+			"paragraphTwo": "Una sala ampia e maestosa è pronta ad ospitare il tuo evento.\nTutta, la metà, o una parte: contattaci per prenotare lo spazio adatto.",
+			"paragraphThree": "Ambiente intimo ed accogliente, perfetto per cene private o eventi aziendali.\nDecidiamo insieme la disposizione dei tavoli, l’atmosfera della serata la scegli tu."
 		}
 	],
 
 	"contactPage": [
 		{
 			"id": 0,
-			"heading": "Nabucco awaits you",
+			"heading": "Tanagra awaits you",
 			"paragraphOne": "Lungotevere Flaminio, 57, 00196, Rome \n \n Open for dinner from 20:00",
 			"tel": "063610097",
 			"form": "Otherwise fill out the form, we will get back to you in 48h"
@@ -143,14 +166,14 @@
 		}
 	],
 
-	"listingsHeader": "Nabucco is his selection of meat",
+	"listingsHeader": "Tanagra is his selection of meat",
 	"menuOne": "Discover the menu",
 	"labelMenuOne": "Not only meat",
 	"menuTwo": "Our wine list",
 	"labelMenuTwo": "Choose yours",
 	"aboutHeading": "Our philosophy",
 	"restaurantHeading": "Our roots",
-	"executiveHeading": "Choose Nabucco for your important dinner",
+	"executiveHeading": "Choose Tanagra for your important dinner",
 	"contactHeading": "contact",
     "menuHeading": "Menu",
 	"popUpHeading": "Come to our opening day",

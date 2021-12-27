@@ -69,9 +69,7 @@ const PagesHero = ({ image, heading }) => {
 		<HeroSection>
 			<HeroSlider>
 				<HeroImage src={image} alt="" />
-				<HeroContent>
-					<h1>{heading}</h1>
-				</HeroContent>
+				
 			</HeroSlider>
 		</HeroSection>
 	);
