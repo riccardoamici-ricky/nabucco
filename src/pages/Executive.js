@@ -3,8 +3,8 @@ import PagesBody from '../components/PagesBody'
 import PagesHero from '../components/PagesHero'
 import { useTranslation } from 'react-i18next';
 import ImageExecutive from '../images/business-dinner.jpg';
-import PianoTerra from '../images/regala-cena.jpg';
-import PianoSuperiore from '../images/nabucco.jpg';
+import PianoTerra from '../images/piano-terra.jpg';
+import PianoSuperiore from '../images/piano-superiore.jpg';
 
 const Executive = () => {
     const { t } = useTranslation();
