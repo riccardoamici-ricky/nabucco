@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components/macro';
 import { Link, useLocation } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import ChooseLanguage from './ChooseLanguage';
-import LogoImg from '../images/logo.svg';
+import LogoImg from '../images/logo-inline-tanagra.svg';
 import { useTranslation } from 'react-i18next';
 import { default as i18next } from 'i18next';
 import { FaInstagram, FaFacebookF } from 'react-icons/fa';
@@ -34,7 +34,7 @@ const Logo = styled(Link)`
     ${NavLink};
 
 	img {
-		height: 4vh;
+		height: 50px;
 	}
 `;
 

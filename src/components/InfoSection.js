@@ -21,6 +21,8 @@ const Container = styled.div`
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
 		grid-template-rows: 400px;
+		margin-top: -90px;
+		margin-bottom: 5em;
 	}
 `;
 
@@ -43,6 +45,7 @@ const ColumnLeft = styled.div`
 	p {
 		margin-bottom: 2rem;
 	}
+	
 `;
 const ColumnRight = styled.div`
 	display: flex;
@@ -53,6 +56,7 @@ const ColumnRight = styled.div`
 
 	@media screen and (max-width: 768px) {
 		order: ${({ reverse }) => (reverse ? '2' : '1')};
+
 	}
 
 	img {
@@ -63,6 +67,8 @@ const ColumnRight = styled.div`
 		@media screen and (max-width: 768px) {
 			width: 100%;
 			height: 90%;
+			margin-top: 7em;
+
 		}
 	}
 `;
