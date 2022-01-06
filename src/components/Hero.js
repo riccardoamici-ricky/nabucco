@@ -144,19 +144,19 @@ const Hero = () => {
 	const slides = [
 		{
 			image: ImageOne,
-			alt: 'Nabucco'
+			alt: 'Ristorante Tanagra Roma'
 		},
 		{
 			image: ImageTwo,
-			alt: 'Nabucco'
+			alt: 'Ristorante Tanagra Roma'
 		},
 		{
 			image: ImageThree,
-			alt: 'Nabucco'
+			alt: 'Ristorante Tanagra Roma'
 		},
 		{
 			image: ImageFour,
-			alt: 'Nabucco'
+			alt: 'Ristorante Tanagra Roma'
 		}
 	];
 

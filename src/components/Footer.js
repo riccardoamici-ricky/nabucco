@@ -121,7 +121,7 @@ const Footer = () => {
 				<FooterTop>
 					<Quote>
 						<h3>
-							This is<br /> Nabucco
+							This is<br /> Tanagra
 						</h3>
 					</Quote>
 					<MobileLinks>
