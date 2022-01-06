@@ -39,12 +39,12 @@ const DropdownWrapper = styled.div``;
 const DropdownMenu = styled.div`
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(8, 70px);
+	grid-template-rows: repeat(7, 70px);
 	text-align: center;
 	margin-bottom: 2rem;
 
 	@media screen and (max-width: 480px) {
-		grid-template-rows: repeat(5, 60px);
+		grid-template-rows: repeat(7, 60px);
 	}
 `;
 
