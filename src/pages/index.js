@@ -4,10 +4,10 @@ import Hero from '../components/Hero'
 import InfoSection from '../components/InfoSection'
 import PopUp from '../components/PopUp'
 import ImageOne from '../images/square-restaurant.png';
-import ImageTwo from '../images/vino.jpg';
+import ImageTwo from '../images/tanagra-cuoco.png';
 import ImageThree from '../images/cavolo.jpg';
-import ImageMenu from '../images/chef.jpg';
-import ImageWine from '../images/vino-nabucco.jpg';
+import ImageMenu from '../images/tanagra-menu.png';
+import ImageWine from '../images/tanagra-vino.png';
 import ContactUs from '../components/ContactUs'
 import { BookNow } from '../components/BookNow'
 
