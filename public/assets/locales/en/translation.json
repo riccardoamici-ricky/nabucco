@@ -2,8 +2,8 @@
 	"menuData": [
 		{ "id": 0, "title": "Who are we", "link": "/restaurant" },
 		{ "id": 1, "title": "How we do it", "link": "/about" },
-		{ "id": 2, "title": "Menu", "link": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y" },
-		{ "id": 3, "title": "Wines", "link": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y" },
+		{ "id": 2, "title": "Menu", "link": "/menu" },
+		{ "id": 3, "title": "Wines", "link": "/wines" },
 		{ "id": 4, "title": "Where we are", "link": "/contact" },
 		{ "id": 5, "title": "Book", "link": "/contact" },
 		{ "id": 6, "title": "Events", "link": "/executive" }
@@ -93,7 +93,7 @@
 			"title": "A good dish is identified in the ingredients that are used to make it",
 			"subtitle": "Not only we study where our food comes from, we know who makes it. And how they work. The search for everything that enters our kitchen is accurate, maniacal, traceable.",
 			"second_subtitle": "We do not compromise, to ensure that what comes out of the kitchen is tasty, satisfying, flawless.",
-			"path": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y",
+			"path": "/menu",
 			"label": "Get to know us"
 		}
 	],
@@ -104,7 +104,7 @@
 			"title": "A good dish is identified in the ingredients that are used to make it",
 			"subtitle": "Not only we study where our food comes from, we know who makes it. And how they work. The search for everything that enters our kitchen is accurate, maniacal, traceable.",
 			"second_subtitle": "We do not compromise, to ensure that what comes out of the kitchen is tasty, satisfying, flawless.",
-			"path": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y",
+			"path": "/wines",
 			"label": "Get to know us"
 		}
 	],
@@ -146,14 +146,20 @@
 			"heading": "Tanagra awaits you",
 			"paragraphOne": "Lungotevere Flaminio, 57, 00196, Rome \n \n Open for dinner from 20:00",
 			"tel": "063610097",
+			"mail": "info@tanagra.it",
 			"form": "Otherwise fill out the form, we will get back to you in 48h"
 		}
 	],
 	"menuPage": [
 		{
 			"id": 0,
-			"heading": "Vi presentiamo il nostro menù",
-			"paragraphOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu"
+			"heading": "Vi presentiamo il nostro menù"
+		}
+	],
+	"winePage": [
+		{
+			"id": 0,
+			"heading": "La nostra selezione di vini"
 		}
 	],
 	"contactUsHome": [

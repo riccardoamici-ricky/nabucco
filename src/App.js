@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import Restaurant from './pages/Restaurant';
 import Executive from './pages/Executive';
 import Menu from './pages/Menu';
+import Wines from './pages/Wines';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
         <Route path="/ristorante-tanagra" element={ <Restaurant />} />
         <Route path="/eventi" element={ <Executive />} />
         <Route path="/menu" element={ <Menu />} />
+        <Route path="/wines" element={ <Wines />} />
       </Routes>
       <Footer />
     </>

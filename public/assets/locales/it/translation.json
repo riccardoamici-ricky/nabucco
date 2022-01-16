@@ -2,8 +2,8 @@
 	"menuData": [
 		{ "id": 0, "title": "Chi siamo", "link": "/ristorante-tanagra" },
 		{ "id": 1, "title": "La nostra filosofia", "link": "/filosofia" },
-		{ "id": 2, "title": "Menù", "link": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y" },
-		{ "id": 3, "title": "Vini", "link": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y" },
+		{ "id": 2, "title": "Menù", "link": "/menu" },
+		{ "id": 3, "title": "Vini", "link": "/wines" },
 		{ "id": 4, "title": "Dove siamo", "link": "/contatti" },
 		{ "id": 5, "title": "Prenota", "link": "/contatti" },
 		{ "id": 6, "title": "Eventi", "link": "/eventi" }
@@ -93,7 +93,7 @@
 			"title": "Vi presentiamo il nostro menu",
 			"subtitle": "Un buon piatto si identifica nelle materie prime che si utilizzano per realizzarlo, insieme con la maestria delle mani e le teste che lo hanno concepito. La nostra cucina è fiera di presentarvi il menù della stagione: per ogni portata, un ingrediente principale intorno al quale ruotano gli altri,  per creare contrasti, bilanciare sapori, valorizzare gli aromi.",
 			"second_subtitle": "È così che nasce la magia, fatti tentare.",
-			"path": "http://www.keepandshare.com/doc5/view.php?id=30522&da=y",
+			"path": "/menu",
 			"label": "Sfoglia il menù"
 		}
 	],
@@ -104,7 +104,7 @@
 			"title": "La nostra proposta dei vini",
 			"subtitle": "Grazie alla  passione e all’esperienza rivolta al mondo enologico, abbiamo selezionato e definito la nostra Carta dei Vini. Etichette che riescono a seguire fedelmente il mood caratterizzante del Team del Tanagra: una scelta di oltre 100 etichette di vini selezionati con cura, che ripercorrono le migliori cantine italiane ed estere, con un focus mirato verso il territorio e alcune chicche ricercate.",
 			"second_subtitle": "La nostra Carta dei Vini si presenta così: tradizionale ma allo stesso tempo dinamica, attenta alle novità presenti sul mercato e segnata da un aggiornamento continuo. Lasciatevi guidare dal nostro staff preparatissimo.",
-			"path": "http://www.keepandshare.com/doc5/view.php?id=30523&da=y",
+			"path": "/wines",
 			"label": "Scopri le nostre etichette"
 		}
 	],
@@ -145,15 +145,21 @@
 			"id": 0,
 			"heading": "Tanagra ti aspetta, contattaci",
 			"paragraphOne": "Lungotevere Flaminio, 57 \n 00196, Roma ",
-			"tel": "+39 063610097",
+			"tel": "📞 +39 063610097",
+			"mail": "✉️ info@tanagra.it",
 			"form": ""
 		}
 	],
 	"menuPage": [
 		{
 			"id": 0,
-			"heading": "Vi presentiamo il nostro menù",
-			"paragraphOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu"
+			"heading": "Vi presentiamo il nostro menù"
+		}
+	],
+	"winePage": [
+		{
+			"id": 0,
+			"heading": "La nostra selezione di vini"
 		}
 	],
 	"contactUsHome": [
