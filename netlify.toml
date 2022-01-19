@@ -3,4 +3,6 @@
   to = "/"
   status = 200
 
-https://tanagra.it/* https://www.tanagra.it/:splat 301!
+[[redirects]]
+  from = "https://tanagra.it/*"
+  to = "/"
