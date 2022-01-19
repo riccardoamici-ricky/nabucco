@@ -126,7 +126,7 @@ const Footer = () => {
 					</Quote>
 					<MobileLinks>
 						<FooterInfo>
-							<a href="http://www.keepandshare.com/doc5/view.php?id=30522&da=y" target="_blank" rel="noreferrer">Menù</a>
+							<a href="/menu" rel="noreferrer">Menù</a>
 							<Link to="/filosofia">Filosofia</Link>
 							<Link to="/eventi">Eventi</Link>
 						</FooterInfo>
