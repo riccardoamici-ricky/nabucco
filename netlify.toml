@@ -3,6 +3,4 @@
   to = "/"
   status = 200
 
-  [[redirects]]
-  from = "/XGA1" 
-  to = "/"
+https://tanagra.it/* https://www.tanagra.it/:splat 301!
