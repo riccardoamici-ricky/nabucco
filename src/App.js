@@ -14,6 +14,7 @@ import Restaurant from './pages/Restaurant';
 import Executive from './pages/Executive';
 import Menu from './pages/Menu';
 import Wines from './pages/Wines';
+import PopUp from './components/PopUp';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
     <>
       <GlobalStyle />
       <ScrollToTop />
+      < PopUp />
       <Navbar toggle={toggle}/>
       <Dropdown isOpen={isOpen} toggle={toggle}/>
       <Routes>
