@@ -10,7 +10,7 @@ const About = () => {
         <>
 
            <PagesHero image={ImageAbout} heading={t('aboutHeading')} /> 
-           <PagesBody image={ImageAbout} source={'aboutPage'} />
+           <PagesBody image={ImageAbout} source={'aboutPage'} double={true}/>
         </>
     )
 }

@@ -8,7 +8,7 @@ const Restaurant = () => {
     return (
         <>
            <PagesHero image={ImageRestaurant} heading={t('restaurantHeading')} /> 
-           <PagesBody image={ImageRestaurant} source={'restaurantPage'} />
+           <PagesBody image={ImageRestaurant} source={'restaurantPage'} double={true}/>
         </>
     )
 }
