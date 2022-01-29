@@ -31,25 +31,7 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
-      <ScrollToTop />
-      < PopUp />
-      <Navbar toggle={toggle}/>
-      <Dropdown isOpen={isOpen} toggle={toggle}/>
-      <Routes>
-        <Route path="/" element={ <Home />} />
-        <Route path="/about" element={ <About />} />
-        <Route path="/contact" element={ <Contact />} />
-        <Route path="/restaurant" element={ <Restaurant />} />
-        <Route path="/executive" element={ <Executive />} />
-        <Route path="/filosofia" element={ <About />} />
-        <Route path="/contatti" element={ <Contact />} />
-        <Route path="/ristorante-tanagra" element={ <Restaurant />} />
-        <Route path="/eventi" element={ <Executive />} />
-        <Route path="/menu" element={ <Menu />} />
-        <Route path="/wines" element={ <Wines />} />
-      </Routes>
-      <Footer />
+      <h1>Sito in costruzione</h1>
     </>
   );
 }
